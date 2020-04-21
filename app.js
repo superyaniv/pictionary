@@ -4,7 +4,7 @@ let http = require('http').Server(app)
 let io = require('socket.io')(http)
 let path = require('path')
 let _ = require ('lodash')
-
+let port = 5000
 
 
 
@@ -125,6 +125,6 @@ io.on('connection',function(socket){
 
 })
 
-http.listen(8080, function() {
-   console.log('listening on *:8080');
+http.listen(port, function() {
+   console.log(`Listening on ${port}`);
 });

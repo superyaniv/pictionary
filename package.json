@@ -1,7 +1,7 @@
 {
   "name": "pictionary",
   "version": "1.0.0",
-  "description": "pictionary game to play online",
+  "description": "Pictionary Server made with Node JS and HTML5 Canvas",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
