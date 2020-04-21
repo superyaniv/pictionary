@@ -1,2 +1,4 @@
 # pictionary
-Node JS pictionary game for you and friends.
+
+Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with friends.
+
