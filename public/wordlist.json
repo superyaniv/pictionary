@@ -1,0 +1,9402 @@
+[
+  {
+    "word": "abba",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "acdc",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ace",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "acorn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "add",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "adele",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "africa",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "afro",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "airbag",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "airplane",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "airport",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "aladdin",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "alarm",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "alf",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "alien",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "align",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "alone",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "alphabet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "amazon",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "america",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "anchor",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "android",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "angel",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "angelina",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "anger",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "animals",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ankle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ant",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "antenna",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "antlers",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ants",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ape",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "apple",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "apron",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "aquaman",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "aquarium",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "arcade",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "archery",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "arm",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "armor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "armpit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "army",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "arnold",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "arrow",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "art",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "artist",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ash",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "asia",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "assassin",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "asteroid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "atlantis",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "attack",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "attic",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "audience",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "autobots",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "avatar",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "avengers",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "avocado",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "avril",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "awake",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "award",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "axe",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "baby",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "back",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "backache",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "backbone",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "backflip",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "backpack",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bacon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "badge",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bag",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bagpipes",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bahamas",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bait",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bake",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "baking",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "balance",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "balcony",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bald",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ball",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "balloon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bamboo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "banana",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "band",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "bandaid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bandana",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bank",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "barber",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "barbie",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "barcode",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bark",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "barn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "barrel",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bart",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "base",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "baseball",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "basket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bathtub",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "batman",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "battery",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bay",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "beach",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "beak",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "beans",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bear",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "beard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "beatles",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "beckham",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bed",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "beef",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "beehive",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "beer",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bell",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "belt",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bench",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "beyonce",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bib",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bicycle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bieber",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bigfoot",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bike",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "bikini",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bill",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bingo",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bird",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "birdcage",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "birthday",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "black",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "blade",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "blanket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "blender",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "blimp",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "blind",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "blonde",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "blondie",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "blood",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "blow",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "blue",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "blush",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "boat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bobdylan",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bomb",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bone",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bones",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bonfire",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bonjovi",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "booger",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "book",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bookcase",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bookmark",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "boombox",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "boot",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "boots",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "border",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bottle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bottom",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bounce",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bow",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "bowl",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bowling",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bowser",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bowtie",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "box",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "boxing",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bracelet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "braces",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bradpitt",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "brain",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "brakes",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "branches",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "brazil",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bread",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "breath",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "brick",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bride",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bridge",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "briefs",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "britney",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "broccoli",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "broncos",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "broom",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "brownie",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "brush",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bubble",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bubbles",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "bucket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "buckle",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "buffalo",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bug",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "building",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bulb",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bull",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "bullet",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "bullseye",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "bum",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bumper",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "bunkbed",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bunny",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "burger",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "burn",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "burp",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "burrito",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "bus",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "butcher",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "butt",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "butter",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "button",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cabin",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cabinet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cable",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cactus",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "caddy",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "cage",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cake",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "calendar",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "calf",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "camel",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "camera",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "campfire",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "camping",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "can",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "canada",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "candle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "candy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cane",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "cannon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "canoe",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cap",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cape",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "captain",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "car",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "card",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cards",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "carnival",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "carpet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "carpool",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "carrot",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "carseat",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "carwash",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "cashier",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "casino",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "castle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "catapult",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "catfish",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cattail",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "catwoman",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cave",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "caveman",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "cd",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "ceiling",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "celery",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cemetery",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "centaur",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "center",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cereal",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "chain",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "chainsaw",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "chair",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "chalk",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "champ",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "chart",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "check",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "checkers",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cheek",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cheese",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "chef",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cherry",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "chess",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "chest",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "chew",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "chicken",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "children",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "chimney",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "chin",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "china",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "chips",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "church",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cigar",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "circle",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "circus",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "city",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "clam",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "clap",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "class",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "claw",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "clay",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cliff",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "climb",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "clock",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "closet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cloud",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "clown",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "club",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "coach",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "coal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "coat",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "coconut",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cocoon",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "coffee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "coffin",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "coin",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cold",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "collar",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "college",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "comb",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "comet",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "comic",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "compass",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "computer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "conan",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "concert",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cone",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "cook",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cookie",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cookies",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cork",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "corn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "corndog",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "corner",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "couch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "court",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cover",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cow",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "cowboy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "cowgirl",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "crab",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "crack",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crane",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "crash",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crawl",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "crayon",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crescent",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "crib",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crossbow",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "crowbar",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "crown",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crush",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crust",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "crutches",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cry",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "crystal",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cuba",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cuddle",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cueball",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "cup",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cupcake",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "cupid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "curl",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "curtain",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "customer",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "cut",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cute",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "cyclops",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "daftpunk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dallas",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dance",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dandruff",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "danger",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dart",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "dead",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "deaf",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "death",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "deck",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "deep",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "deer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "defender",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "delta",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dentist",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dentures",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "desert",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "desk",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "devil",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "devo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "diamond",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "diaper",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dice",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "die",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "dig",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "dimples",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dinner",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dinosaur",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "diploma",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "director",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "dirt",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "disco",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "disease",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dishes",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "diva",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dive",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "divorce",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dizzy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dj",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dna",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dock",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "doctor",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dog",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "dogfish",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dogsled",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "doll",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "dollar",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dolphin",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "domino",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "donkey",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "donut",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "door",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "doorbell",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "doorknob",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "doormat",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "doors",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "doorstep",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dots",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dove",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "down",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dracula",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "dragon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "drain",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "drake",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "drapes",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "draw",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "drawer",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dream",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dreidel",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dress",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dresser",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dribble",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "drill",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "drink",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "drip",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "drive",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "drum",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "drummer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "drums",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "drumset",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "drunk",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dubstep",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "duck",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "duel",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dumbbell",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dumbo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "dunk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "duster",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "dustpan",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "dynamite",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eagle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ear",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "earmuffs",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "earring",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "earth",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "earwax",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "east",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "easter",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "eat",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "echo",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "eclipse",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "edge",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "eel",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "egg",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "eggplant",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eggroll",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "elbow",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "election",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "elephant",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "elevator",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ellen",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "elmo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "elton",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "elvis",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "emerald",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eminem",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "empty",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "end",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "engine",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "england",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "envelope",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "eraser",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "escape",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "eskimo",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "espresso",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "europe",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "evil",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ewok",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "explode",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "eye",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "eyeball",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eyebrow",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eyelash",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eyelid",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "eyepatch",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "eyes",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "face",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "facebook",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "factory",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fairy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fall",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "family",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fan",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fangs",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fanmail",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fans",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "farm",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "farmer",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fart",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fastfood",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "father",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "faucet",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fear",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "feather",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "feet",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "female",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fence",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fencing",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "fern",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ferry",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "festivus",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fever",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "field",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fight",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fin",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "finger",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "finland",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "fire",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fireball",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "firefly",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "firefox",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "firewall",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "firewood",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "firework",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "first",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "firstaid",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fish",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fishing",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fist",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "flag",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "flame",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flamingo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "flash",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flea",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flight",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flood",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "floor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "florida",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "floss",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "flour",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "flower",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "flu",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "flush",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fly",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fog",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "folder",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fool",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "foot",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "football",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "force",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "forehead",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "forest",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "fork",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "forklift",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fort",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "forward",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "foul",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fountain",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "fox",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fraction",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "frame",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "france",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "freezing",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "fridge",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "friend",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "frisbee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "frodo",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "frog",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "frosting",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "frown",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "fruit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "funeral",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "funnel",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "fur",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "furby",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "galaxy",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "gameboy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "gandalf",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "gangster",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "garage",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "garden",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "gardener",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "garlic",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "gas",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "gasmask",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "gate",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "gears",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "gem",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "germ",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "germany",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "geronimo",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ghost",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "giftwrap",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "giraffe",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "girl",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "glass",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "glasses",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "glee",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "globe",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "glove",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "glue",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "goal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "goalie",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "goalpost",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "goat",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "goggles",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "gold",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "goldfish",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "golem",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "golf",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "golfcart",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "golfclub",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "goofy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "google",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "goose",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "gorilla",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "grade",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "graduate",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "grammy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "grandma",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "grandpa",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "grapes",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "graph",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "grass",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "grave",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "gravy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "green",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "grenade",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "grid",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "griffin",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "grill",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "grin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "groom",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "gross",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "guitar",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "gum",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "gun",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "gymnast",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "gza",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hail",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "hair",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "haircut",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hairdye",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hairgel",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hairtie",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hairy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "halo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ham",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hambone",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hammer",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hammock",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hamster",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hamwich",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hand",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "handbag",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "handball",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "handcuff",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "handgun",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "handle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hanger",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hangman",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hanukkah",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "happy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "harbor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hare",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "harp",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hawaii",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hawkeye",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "head",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "headache",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "headband",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "headset",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hear",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "heart",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "heat",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "heaven",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "heel",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "heidi",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "helmet",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hercules",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "highfive",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hiking",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hill",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hiphop",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hippo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hobbit",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hobo",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hockey",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "holiday",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "holland",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "home",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "homeless",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "homer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "homerun",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "homework",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "honey",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hongkong",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hood",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hook",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hoop",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "hop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "horn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "horse",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "horton",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hose",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "hospital",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hot",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hotdog",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hotel",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hotsauce",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hottub",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "house",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hug",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "hulahoop",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hulk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hummer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "hungry",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hunt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "hurt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "husband",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "hustle",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "hut",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ice",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "iceberg",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "icebox",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "icecube",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "icepop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "iceskate",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "icicle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "icing",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "idea",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "igloo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ikea",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ink",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "inn",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "insect",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "insomnia",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ipad",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "iphone",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ireland",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "iron",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ironchef",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ironman",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "island",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jacket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jaguar",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jail",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "jam",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "jamaica",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "japan",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "jar",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "javelin",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "jaw",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "jaws",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jayleno",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jayz",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "jazz",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "jeans",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jeep",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jello",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jelly",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jenga",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "jersey",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jeter",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "jetski",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jewelry",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jigsaw",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jlo",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "joker",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jonas",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "jordan",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "journey",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "joystick",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "judge",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jug",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "juggle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "juice",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "jukebox",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jump",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jumpball",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jumprope",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "jungle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "junkfood",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "jupiter",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "justice",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "kangaroo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "kansas",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "kanye",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "karate",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "katemoss",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "katniss",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ketchup",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "key",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "keyboard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "keychain",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "kfc",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "kick",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "kidney",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "killer",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "kilt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "king",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "kirby",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "kiss",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "kitchen",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "kite",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "kitten",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "knee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "kneecap",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "kneepads",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "knife",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "knitting",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "knives",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "knock",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "knot",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "knuckle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "koala",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "kobe",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "koopa",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "korea",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "kraken",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "kwanzaa",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "lab",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ladder",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lady",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ladybug",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ladygaga",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "lake",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lamb",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lamp",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lamprey",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "lap",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "laptop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "laser",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lasso",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "latrine",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "laugh",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "laughing",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "lava",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lavalamp",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lawyer",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "lead",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "leaf",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "leak",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "leash",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "leather",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "lebron",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "left",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "leg",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lemon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lemonade",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lemons",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lens",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "leopard",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "letter",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "library",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lick",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lid",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lift",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "light",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "lighter",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lilwayne",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "limbo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lime",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "limo",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "lin",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "line",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "link",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lion",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lionking",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "lip",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "lips",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "lipstick",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "liquid",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lisa",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "list",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lizard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lobster",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lock",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "locket",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "log",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "london",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "long",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "longjump",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "loop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lost",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lotion",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "love",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "lovebird",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "low",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "ludacris",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "luge",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "luggage",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "luigi",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "luke",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "lumber",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lunch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lung",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "lyrics",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "macarena",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "macaroni",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "macbook",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "magazine",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "magic",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "magician",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "magnet",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mail",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mailbox",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mailman",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "makeup",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mall",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mammoth",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mango",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "manicure",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mansion",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "map",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "marble",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "marge",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "mariah",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "marine",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "mario",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "markers",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "marriage",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "marry",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mars",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "martini",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "mask",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "massage",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mattress",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "maze",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mchammer",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "meal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "meat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "meatball",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "meathead",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "medal",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "medicine",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "medusa",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "melt",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "melting",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "menorah",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "meow",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mercury",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mermaid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "messy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "meteor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "meter",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "metroid",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "mexico",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "miami",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "middle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "miley",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "milk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "milkman",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "minivan",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "minotaur",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mint",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "mirror",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "missile",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "mittens",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "model",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mohawk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "money",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "monkey",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "monopoly",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "monster",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "moo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "moon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "moose",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "mop",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "morning",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "mosquito",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mother",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "motor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mountain",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mouse",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mouth",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mud",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "muffin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mug",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "multiply",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "mummy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "muscle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "muse",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "museum",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "mushroom",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "music",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "musicbox",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "mustache",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "mustard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "nachos",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nail",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "nailfile",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "name",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "napkin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nascar",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "navy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "neck",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "necklace",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "needle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "neptune",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "nerd",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nest",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "net",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "news",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "newyork",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "nickel",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nicki",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "night",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nike",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ninja",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "no",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "noodle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "noodles",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "noose",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "north",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "norway",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "nose",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "nosehair",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "nosering",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "nostril",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "notebook",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "notepad",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "novel",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "number",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nun",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "nurse",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "nut",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "oaktree",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "oar",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "oars",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "oatmeal",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "obama",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ocean",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "octagon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "octopus",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "odor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "off",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "oil",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "oilfield",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "olympics",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "omelet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "onion",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "online",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "open",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "opera",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "oprah",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "orange",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "orbit",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "organ",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "origami",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ornament",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ostrich",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "outkast",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "outlet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "oval",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "oven",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "overalls",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "overflow",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "overtime",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "owl",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pacifier",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pacman",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "paddle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "padlock",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "paella",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "page",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "paint",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "paintcan",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "painter",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "painting",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pajamas",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "palace",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "palm",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "palmtree",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pancake",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pancakes",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "panda",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pants",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "paper",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "paperbag",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "papercut",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "parade",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "parents",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "paris",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "park",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "parrot",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "partyhat",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pass",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "password",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "patch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "path",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "patriots",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "paulyd",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "paw",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pdiddy",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "peace",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "peach",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "peaches",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "peacock",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "peanut",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pear",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pearl",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "peas",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pedal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pegasus",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "pen",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pencil",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "penguin",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "penguins",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "penny",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pepper",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pepsi",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "perez",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "perfume",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "person",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pet",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "petal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "petfood",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "petshop",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "phoenix",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "phone",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "piano",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pickle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "picnic",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "picture",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pie",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "piechart",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pig",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pigeon",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pikachu",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pill",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pillow",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pilot",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pimple",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pinecone",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pinetree",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pingpong",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pink",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "pinky",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pinwheel",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pipe",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "pirate",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pistol",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pitbull",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "pitcher",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pitfall",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "pizza",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "plane",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "planet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "plant",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "plate",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "plug",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "plum",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "plumber",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "plunger",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pluto",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pocket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "poison",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "poke",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "poker",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "polaroid",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "police",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "polkadot",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "polo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pong",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pony",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "ponytail",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "poodle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pool",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "poop",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "poor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "popcorn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "popsicle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pork",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "porsche",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "portrait",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "poseidon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "positive",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "postcard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "poster",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pot",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "potato",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pouch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pounce",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "powder",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "power",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pray",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pregnant",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "presents",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "pretty",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pretzel",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "pricetag",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "prince",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "princess",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "print",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "prism",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "prison",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "prius",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "puddles",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "puke",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pull",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pumpkin",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "punch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "puppet",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "puppy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "purse",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "push",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "pushup",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "puzzle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "pyramid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "quack",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "quarter",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "queen",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "quiet",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "quilt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rabbit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "raccoon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "race",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "racecar",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "radar",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "radio",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "raekwon",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "raft",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rag",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "raiders",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "railroad",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "rain",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rainbow",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "raincoat",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "raindrop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "raisin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rake",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ramp",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rap",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "rapture",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "rat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rattle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "razor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rebound",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "record",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "recycle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "red",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "reddit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "redhead",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "referee",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "reindeer",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "reptile",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "rest",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "rhino",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ribbon",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ribs",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "rice",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "riddler",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ride",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "rifle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rihanna",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "rim",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ring",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ringtone",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ripple",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "risk",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "river",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "road",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "roadkill",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "roast",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "robber",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "robe",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "robot",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rock",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "rocket",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "rockstar",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "roll",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "roof",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rooster",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "root",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rope",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "rose",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "round",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "row",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "rowboat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ruby",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "rug",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "rugrats",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ruler",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "runway",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "russia",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "rza",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "sack",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sad",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "saddle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "safari",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sail",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sailboat",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sailor",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "salad",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "salami",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "salsa",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "salt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "samba",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sand",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sandals",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sandbox",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sandwich",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "santa",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sapphire",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "saturn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sausage",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "saw",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "scale",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "scar",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "scarf",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "school",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "science",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "scissors",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "scooter",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "scorpion",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "scotland",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "scrabble",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "scratch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "scream",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "screen",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "screw",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sea",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "seafood",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "seagull",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "seahorse",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "seal",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "seashell",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "seasick",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "seat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "seatbelt",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "seaweed",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "seed",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "seesaw",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "selena",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "sew",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "shade",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shadow",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "shakira",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "shampoo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "shape",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shaq",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "shark",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sharp",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shave",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sheep",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sheets",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shelf",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shell",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sheriff",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "shield",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "ship",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shirt",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shoe",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shoebox",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shoelace",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shoes",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shoot",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "shore",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "short",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shorts",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shot",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shotgun",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shoulder",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "shovel",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shower",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "shrek",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "shrimp",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "shuttle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "shy",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sideburn",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sidewalk",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "simon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sing",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "singer",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sink",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sister",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sith",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "sixpack",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "skate",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "skater",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "skeleton",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "ski",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "skiing",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "skin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "skinny",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "skirt",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "skis",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "skrillex",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "skull",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "skunk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sky",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "skyline",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "skyrim",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "slam",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "slamdunk",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "slap",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "sled",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "sledding",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sleep",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sleigh",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "slide",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "slimy",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "slip",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "slippers",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "slope",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "small",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "smell",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "smile",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "smoke",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "smoking",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "smoothie",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "smores",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "snail",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "snake",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "snakepit",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sneakers",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sneeze",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sniper",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "snooki",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "snoop",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "snoopy",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "snore",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "snorkel",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "snow",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "snowball",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "snowcone",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "snowman",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "soap",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "soccer",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sock",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "socket",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "socks",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "soda",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "sofa",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "soil",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "soldier",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sombrero",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "son",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "song",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "sonic",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sorry",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "soup",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "south",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "soysauce",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "spain",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sparkles",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "speak",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "speaker",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "spear",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "spider",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "spin",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "spinach",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "spine",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "spiral",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "spit",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "splinter",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sponge",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "spoon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "spray",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "spring",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sprite",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "square",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "squid",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "squirrel",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "stab",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "stable",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stadium",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "stage",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stain",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stairs",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "stamp",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "stapler",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "star",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "stare",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "starfish",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "startrek",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "starwars",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "statue",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "steak",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "steal",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "steam",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "steelers",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "steep",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "step",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stereo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stern",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "stilts",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sting",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stomach",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stone",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stool",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "stop",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "stork",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "storm",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stove",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "straight",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "straw",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "strawman",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "stream",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "street",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "strike",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "string",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stripe",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "stroller",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "students",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "stump",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "subway",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sudoku",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sugar",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "suitcase",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "summer",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sun",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sunblock",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sunburn",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sunny",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sunset",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "sunshine",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "superman",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "surf",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "surfing",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "surgeon",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "survivor",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sushi",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "swan",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "sweat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sweater",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "sweaty",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "sweden",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "sweet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "swim",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "swimming",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "swimsuit",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "swing",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "swings",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "swingset",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "switch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "swoosh",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "sword",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "syrup",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "table",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "taco",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tacos",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tadpole",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tag",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tail",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "taiwan",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "takeoff",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tall",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tango",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tank",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tape",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "target",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tattoo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "taxi",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tea",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "teabag",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "teacher",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "teacup",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "teapot",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "teardrop",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tears",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "teaspoon",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tebowing",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "techno",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "teenager",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "teepee",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "teeth",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tempest",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tennis",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tent",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tentacle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "test",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tetris",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "theater",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "thelorax",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "theonion",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "thief",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "thigh",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "thin",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "thorn",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "throat",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "throne",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "throw",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "thumb",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "thunder",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ticket",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tickle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tie",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tiger",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tiles",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "time",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "timebomb",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "timeline",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "timeout",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "timezone",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tinafey",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "tire",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tissue",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "titanic",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "toad",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "toast",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "toaster",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "toe",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "toenail",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "toga",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "toilet",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tomato",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tomb",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tombrady",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tomhanks",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tongue",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tool",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "toolbox",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tools",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tooth",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "torch",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tornado",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "torpedo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tortoise",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tower",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "towtruck",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "toys",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tractor",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "traffic",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "train",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "trapdoor",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "trash",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "trashcan",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tray",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tree",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "triangle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tricycle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "triplets",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tripod",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "troll",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "trombone",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "trophy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tropical",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "trouble",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "truck",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "trump",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "trumpet",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "trunk",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tshirt",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tuba",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tuesday",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tug",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tugboat",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "tumblr",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "tummy",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "tuna",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tune",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tunnel",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tupac",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "turbo",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "turkey",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "turtle",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "tusk",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tuxedo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tv",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "tweed",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "tweezers",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "twig",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "twilight",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "twinkie",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "twins",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "twist",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "twitter",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "twoface",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "tyra",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "udder",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ufo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "ugly",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "ukulele",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "umbrella",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "under",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "unibrow",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "unicorn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "unicycle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "union",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "uno",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "unzip",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "uppercut",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "upstairs",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "uranus",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "urchin",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "usa",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "usb",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "usher",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "vacation",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vaccine",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vacuum",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "vader",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "valley",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vampire",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "van",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "vanish",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vase",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "vault",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vegas",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "veil",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vein",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "velcro",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "venom",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "vent",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "venus",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vertical",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vest",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "vet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vice",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "victim",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "video",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "viking",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "vikings",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "village",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vine",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vineyard",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "viola",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "violin",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "virus",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "visine",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vitamin",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "voice",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "volcano",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "volume",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vomit",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "voodoo",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "vortex",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "vote",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "waffle",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wagon",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "waist",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "waiter",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "waitress",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wakeup",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "waldo",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "walk",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wall",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wallet",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "walrus",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wand",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "war",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "warcraft",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wardrobe",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "warhol",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "warrior",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wart",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wash",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wasp",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "waste",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "watch",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "water",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "waterbed",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "watergun",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wattle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wave",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "waves",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "waving",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wax",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "weak",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "weave",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wedding",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wedge",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wedgie",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "weed",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "week",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "weep",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "weezer",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "weights",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "weird",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "well",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "werewolf",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "west",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wet",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "whale",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wheat",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wheel",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "whip",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "whiskers",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "whiskey",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "whisper",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "whistle",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "white",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "whopper",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wicked",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "widget",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "widow",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wife",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wig",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wiggle",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wigwam",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wildfire",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "willow",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wimp",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "winch",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wind",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "windmill",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "window",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "windows",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wine",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wing",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "wingman",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wingnut",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wink",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "winner",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "winter",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wire",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wireless",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wires",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wise",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "witch",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "witness",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wizard",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wolf",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "woman",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "wonder",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wood",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "wool",
+    "difficulty": "1",
+    "varsomething": "0"
+  },
+  {
+    "word": "work",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "workshop",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "worldcup",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "worm",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "wormhole",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "worry",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "worship",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wound",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wow",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wreck",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wrench",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "wrestler",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "wrinkles",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wrist",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "writing",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "wutang",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "xerox",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "xray",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "yacht",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "yahtzee",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "yankees",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "yardsale",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "yarn",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "yawn",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "yearbook",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "yellow",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "yeti",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "yield",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "ymca",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "yoda",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "yoga",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "yogurt",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "young",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "youtube",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "yoyo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "zebra",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "zelda",
+    "difficulty": "3",
+    "varsomething": "1"
+  },
+  {
+    "word": "zeppelin",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "zeus",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "zigzag",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "zipline",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "zipper",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "zombie",
+    "difficulty": "2",
+    "varsomething": "1"
+  },
+  {
+    "word": "zoo",
+    "difficulty": "1",
+    "varsomething": "1"
+  },
+  {
+    "word": "zoom",
+    "difficulty": "2",
+    "varsomething": "0"
+  },
+  {
+    "word": "zumba",
+    "difficulty": "3",
+    "varsomething": "0"
+  },
+  {
+    "word": "zygote",
+    "difficulty": "3",
+    "varsomething": "0"
+  }
+]

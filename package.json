@@ -1,0 +1,25 @@
+{
+  "name": "pictionary",
+  "version": "1.0.0",
+  "description": "pictionary game to play online",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superyaniv/pictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superyaniv/pictionary/issues"
+  },
+  "homepage": "https://github.com/superyaniv/pictionary#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.3.0"
+  }
+}
