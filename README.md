@@ -18,6 +18,8 @@ e.g.: `docker build -t yanivalfasy/pictionary`
 
 ### Bind keys for HTTPs support
 
-`docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 yanivalfasy/pictionary`
+`docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 <namespace>/pictionary:tag`
+
+e.g.`docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 yanivalfasy/pictionary:latest`
 
 *will detect if no keys are available for ssl and default to 5000 (no SSL support)*
