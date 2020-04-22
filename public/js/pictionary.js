@@ -136,7 +136,7 @@ function init() {
 	//SET USERNAME
 	socket.on('pictionary_username',function(options){
 		let username_options = JSON.parse(options)
-		username_options.username_set ? (username = username_options.username) : alert('Error, username already in use.')
+		username_options.username_set ? (chat_username = username_options.username) : alert('Error, username already in use.')
 		pictionary_alert(`<strong>Success:</strong> User set his <strong>username</strong> to <mark class='h5'>${username}</mark>.  <em>What's up ${username}</em>?!`,'success',10000)
 	})
 	
