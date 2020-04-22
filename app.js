@@ -155,7 +155,7 @@ if(fs.existsSync('keys/privkey2.pem')){
 
 	const httpsServer = https.createServer(credentials, app);
 
-	httpsServer.listen(http_port, () => {
+	httpsServer.listen(https_port, () => {
 		console.log(`HTTPS Server running on port ${https_port}`);
 	})
 }
