@@ -37,7 +37,7 @@ READ RESPONSE_BUILD
 IF [ $RESPONSE_BUILD == 'y' ]
 THEN
   ECHO 'Running Docker'
-  docker run -d -v ~/logs:/usr/src/app/logs -p 80:3080 -p 443:3443 yanivalfasy/pictionary:latest
+  docker run -d -v ~/logs:/usr/src/app/logs -p 5000:5000 -p 5443:5443 yanivalfasy/pictionary:latest
 ELSE
   ECHO 'OK'
 FI
