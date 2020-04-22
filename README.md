@@ -12,10 +12,10 @@ A Friendly Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with 
 
 ### Build Docker (optional)
 
-`docker build -t <namespace>/pictionary`
+`docker build -t <namespace>/pictionary .`
 
 Example: 
-`docker build -t yanivalfasy/pictionary`
+`docker build -t yanivalfasy/pictionary .`
 
 ---
 
