@@ -142,10 +142,10 @@ http.listen(http_port, function() {
    console.log(`Listening on ${http_port}`);
 })
 
-if(fs.existsSync('etc/docker/certs.d/yanivalfasy.com:5000/privkey2.pem')){
-	const privateKey = fs.readFileSync('etc/docker/certs.d/yanivalfasy.com:5000/privkey2.pem', 'utf8')
-		const certificate = fs.readFileSync('etc/docker/certs.d/yanivalfasy.com:5000/cert2.pem', 'utf8')
-		const ca = fs.readFileSync('etc/docker/certs.d/keys/yanivalfasy.com:5000/fullchain2.pem', 'utf8')
+if(fs.existsSync('keys/privkey2.pem')){
+	const privateKey = fs.readFileSync('keys/privkey2.pem', 'utf8')
+		const certificate = fs.readFileSync('keys/cert2.pem', 'utf8')
+		const ca = fs.readFileSync('keys/fullchain2.pem', 'utf8')
 
 		const credentials = {
 			key: privateKey,
