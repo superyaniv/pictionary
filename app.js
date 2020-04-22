@@ -1,13 +1,39 @@
 const express = require('express')
 const app = express()
 const http = require('http').Server(app)
-const https = require('https')
-const io = require('socket.io')(http)
 const path = require('path')
 const _ = require ('lodash')
 const http_port = 5000
 const https_port = 5443
 const fs = require('fs')
+const ioServer = require('socket.io')
+var io = new ioServer()
+
+if(fs.existsSync('keys/privkey2.pem')){
+	const privateKey = fs.readFileSync('keys/privkey2.pem', 'utf8')
+	const certificate = fs.readFileSync('keys/cert2.pem', 'utf8')
+	const ca = fs.readFileSync('keys/fullchain2.pem', 'utf8')
+	
+
+	const credentials = {
+		key: privateKey,
+		cert: certificate,
+		ca: ca
+	}
+
+	const https = require('https').createServer(credentials, app)
+	io.attach(https)
+	https.listen(https_port, () => {
+		console.log(`HTTPS Server running on port ${https_port}`);
+	})
+	
+}else{
+	io.attach(http)
+	http.listen(http_port, function() {
+		console.log(`Listening on ${http_port}`);
+	})
+}
+// const io = require('socket.io')(http)
 
 	// // REQUIRE HTTPS
 	// function requireHTTPS(req, res, next) {
@@ -138,24 +164,5 @@ io.on('connection',function(socket){
 	
 
 
-http.listen(http_port, function() {
-   console.log(`Listening on ${http_port}`);
-})
 
-if(fs.existsSync('keys/privkey2.pem')){
-	const privateKey = fs.readFileSync('keys/privkey2.pem', 'utf8')
-		const certificate = fs.readFileSync('keys/cert2.pem', 'utf8')
-		const ca = fs.readFileSync('keys/fullchain2.pem', 'utf8')
 
-		const credentials = {
-			key: privateKey,
-			cert: certificate,
-			ca: ca
-		};
-
-	const httpsServer = https.createServer(credentials, app);
-
-	httpsServer.listen(https_port, () => {
-		console.log(`HTTPS Server running on port ${https_port}`);
-	})
-}
