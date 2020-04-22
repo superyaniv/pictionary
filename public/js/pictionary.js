@@ -12,7 +12,6 @@ function init() {
 	let artists = {}
 	let cursors = {}
 	let socket = io.connect('')
-	var lastEmit = $.now()
 	if (canvas.getContext) {
 		ctx = canvas.getContext("2d");
 
@@ -54,52 +53,36 @@ function init() {
 		canvasYp=e.targetTouches[0].pageY - canvas.offsetTop
 		mouseXY()
 	}
-
 	function mouseXY(e) {
 		if (!e)
 		e = event
 		canvasX = e.pageX - canvas.offsetLeft;
 		canvasY = e.pageY - canvas.offsetTop;
-		if (mouseIsDown){
-			drawing = true;
-		}
-		if (!mouseIsDown){
-			drawing = false;
-		}
+		if (mouseIsDown){drawing = true}
+		if (!mouseIsDown){drawing = false}
 		if(typeof(drawType)==='undefined'){
          	drawType='Line'
          	drawSize=3}
 
+        drawing_data = {
+			'canvasXp':canvasXp,
+			'canvasYp':canvasYp,
+			'drawing':drawing,
+			'id':id,
+			'canvasX':canvasX,
+			'canvasY':canvasY,
+			'drawType':drawType,
+			'draw_strokeStyle':ctx.strokeStyle,
+			'drawSize':drawSize
+		}
 		//DRAW FOR THE USER
-			if($.now() - lastEmit > 30){
-				socket.emit('pictionary_mousemove',{
-					'canvasXp':canvasXp,
-					'canvasYp':canvasYp,
-					'drawing':drawing,
-					'id':id,
-					'canvasX':canvasX,
-					'canvasY':canvasY,
-					'drawType':drawType,
-					'draw_strokeStyle':ctx.strokeStyle,
-					'drawSize':drawSize
-				})
-				lastEmit = $.now();
-			}
-			if(drawing){
-			picDraw({
-				'canvasXp':canvasXp,
-				'canvasYp':canvasYp,
-				'drawing':drawing,
-				'id':id,
-				'canvasX':canvasX,
-				'canvasY':canvasY,
-				'drawType':drawType,
-				'draw_strokeStyle':ctx.strokeStyle,
-				'drawSize':drawSize
-			})
-			}
-			canvasXp=canvasX
-			canvasYp=canvasY
+		//EMIT THE DRAW
+		socket.emit('pictionary_mousemove',drawing_data)
+		//DRAW ON SCREEN
+		if(drawing){picDraw(drawing_data)}
+		//RESET PREVIOUS LOCATION
+		canvasXp=canvasX
+		canvasYp=canvasY
 	}
 
 	function touchXY(e) {
@@ -111,10 +94,9 @@ function init() {
          if(typeof(drawType)==='undefined'){
          	drawType='Line'
          	drawSize=3}
-       
-		if($.now() - lastEmit > 30){
-			socket.emit('pictionary_mousemove',{
-				'canvasXp':canvasXp,
+        //DRAW FOR THE USER
+		//EMIT THE DRAW
+        drawing_data = {'canvasXp':canvasXp,
 				'canvasYp':canvasYp,
 				'id':id,
 				'canvasX':canvasX,
@@ -122,43 +104,30 @@ function init() {
 				'drawing':drawing,
 				'drawType':drawType,
 				'draw_strokeStyle':ctx.strokeStyle,
-				'drawSize':drawSize
-			})
-			lastEmit = $.now()
-		}
+				'drawSize':drawSize}
+		//DRAW ON SCREEN
+		socket.emit('pictionary_mousemove',drawing_data)
 		drawing=true
-			picDraw({
-				'canvasXp':canvasXp,
-				'canvasYp':canvasYp,
-				'id':id,
-				'canvasX':canvasX,
-				'canvasY':canvasY,
-				'drawing':drawing,
-				'drawType':drawType,
-				'draw_strokeStyle':ctx.strokeStyle,
-				'drawSize':drawSize
-			})
-
+		picDraw(drawing_data)
+		//RESET PREVIOUS LOCATION
 		canvasXp=canvasX
 		canvasYp=canvasY
 	}
-	
-    var chat_username
 	
 //-----USER FUNCTIONS ------------------------------------------------------------- //
 	//RECEIVE ID
 	socket.on('pictionary_id', (data)=>{
 		let id=data.id
-		chat_username=data.chat_username 
+		let chat_username=data.chat_username 
 		$('#chat_username').text(`[ Username: ${chat_username} ]`)
 		console.log(id,chat_username)
 	})
 	
 	//SET USERNAME
-	socket.on('pictionary_username',function(options){
-		let username_options = JSON.parse(options)
-		username_options.username_set ? (chat_username = username_options.username) : alert('Error, username already in use.')
-		pictionary_alert(`<strong>Success:</strong> User set his <strong>username</strong> to <mark class='h5'>${username}</mark>.  <em>What's up ${username}</em>?!`,'success',10000)
+	socket.on('pictionary_username',function(data){
+		let username_data = JSON.parse(data)
+		username_data.username_set ? (chat_username = username_data.username) : alert('Error, username already in use.')
+		pictionary_alert(`<strong>Success:</strong> User set his <strong>username</strong> to <mark class='h5'>${chat_username}</mark>.  <em>What's up ${chat_username}</em>?!`,'success',10000)
 	})
 	
 	//RECEIVE USER IDS AND HOW MANY ARE CONNECTED
@@ -177,12 +146,11 @@ function init() {
 			'status':'OK'})
 
 	})
-	socket.on('pictionary_user_disconnect',function(options){
-			pictionary_alert(`${options.discon_user} has left.`,'info',10000)
+	//USER DISCONNECTED
+	socket.on('pictionary_user_disconnect',function(data){
+			console.log(data)
+			pictionary_alert(`${data.discon_user} has left.`,'info',10000)
 	})
-	
-	//RECEIVE USER IDS AND HOW MANY ARE CONNECTED
-
 	//SETTING USERNAME FOR YOURSELF
 	$('#set_my_username').click(event=>{
 			username_options = {
@@ -191,9 +159,9 @@ function init() {
 			//CHANGE USER NAME=
 			socket.emit('pictionary_username',JSON.stringify(username_options))
 			console.log(username_options)
-			var username = $('#username_input').val()
+			const username = $('#username_input').val()
 			$('#username_set').modal('hide')
-			$('#chat_username').text(`\t [Username: ${$('#username_input').val()} ]`)
+			$('#chat_username').text(`[Username: ${$('#username_input').val()} ]`)
 			$('#chat_username').attr('style','')
 		})
 	$('#username_input').keypress(event=>{
@@ -212,9 +180,8 @@ function init() {
 			// CREATE CURSOR FOR NEW USER 
 			cursors[data.id] = $('<div class="cursor">').appendTo('#cursors')
 		}
-		cursors[data.id].css({'left' : data.canvasX,'top' : data.canvasY})
+		cursors[data.id].css({'left': data.canvasX,'top': data.canvasY})
 		//USER DRAW
-		// console.table(data)
     	if(data.drawing && artists[data.id]){
 			picDraw({
 				'canvasXp':artists[data.id].canvasX,
@@ -232,25 +199,6 @@ function init() {
 			artists[data.id].updated = $.now()
 	})
 	var prev = {};
-	
-	// $(document).on('mousemove',function(pos){
-	// 	console.log(drawType,drawSize)
-
-	//     if($.now() - lastEmit > 30){
-	//        socket.emit('pictionary_mousemove',{
-	// 			'canvasXp':canvasXp,
-	// 			'canvasYp':canvasYp,
-	// 			'canvasX': pos.pageX,
-	// 			'canvasY': pos.pageY,
-	// 			'drawing': drawing,
-	// 			'id': id,
-	// 			'drawType':drawType,
-	// 			'draw_strokeStyle':ctx.strokeStyle,
-	// 			'drawSize':drawSize
-	//         })
-	//         lastEmit = $.now();
-	//     }
-	// })
 	//--CLEAR TEH SCREEN
 	socket.on('pictionary_clearscreen', function (data) {
 	 		clearScreen(data)
@@ -266,9 +214,7 @@ function init() {
 	}
 	},30000);
 
-	function picDraw(options){
-			//let ctx = options.ctx
-			
+	function picDraw(options){			
 		if(options.drawType=='Line'){
 			ctx.closePath()
 			ctx.beginPath()
@@ -305,34 +251,24 @@ function init() {
 
 	})
 
-
 //------ CHATTING FUNCTIONS AND SOCKETS ------------------------------------------------------------- //
-
 	//GET CHAT MESSAGES
-	socket.on('pictionary_chat',function(options){
-		let chat_options = JSON.parse(options)
-		console.log(chat_options)
-		let new_chat = `<p id='${chat_options.id}' class='p-0 m-0'><small><strong>${(String(chat_options.chat_from).padEnd(' ',10)).substr(0,10)}</strong> : ${chat_options.chat_text}</small></p>`
+	socket.on('pictionary_chat',function(data){
+		let chat_data = JSON.parse(data)
+		let new_chat = $(`<p id='${chat_data.id}' class='p-0 m-0'>`)
+		let chatter_name = $(`<small><strong>`)
+		chatter_name.text(String(chat_data.chat_from).padEnd(' ',10).substr(0,10)+': ')
+		chatter_name.appendTo(new_chat)
+		let chatter_chat = $('<small>')
+		chatter_chat.text(String(chat_data.chat_text))
+		chatter_chat.appendTo(new_chat)
 		$('#chat_area').append(new_chat)
-		console.log(chat_options.id)
-		$('#'+chat_options.id).fadeIn(3000,'swing')
-		$('#'+chat_options.id).fadeOut(3000)
-
-		//setTimeout(new_chat.fadeOut(),10000)
-		
+		$('#'+chat_data.id).fadeIn(3000,'swing')
+		$('#'+chat_data.id).fadeOut(3000)
 	})
-	
 	// WRITE TEXT TO SEND IN TEH CHAT BAR
 	$('#submit_chat').click(event=>{
-		let chat_text = $('#chat_to_send').val()
-		let chat_from=chat_username
-		
-		let chat_options = {
-					'chat_text':chat_text,
-					'chat_from':chat_from
-				}
-		console.log(chat_options)
-		socket.emit('pictionary_chat',JSON.stringify(chat_options))
+		socket.emit('pictionary_chat',JSON.stringify({'chat_text':$('#chat_to_send').val()}))
 		$('#chat_to_send').val('')
 	})
 	$('#chat_to_send').keypress(event=>{
@@ -347,9 +283,7 @@ function init() {
 	socket.on('pictionary_word',function(word_data){
 		pictionary_alert(`New Word Alert: <span class='h5'>${word_data.username}</span> recieved a new word @ difficulty: <strong>${word_data.difficulty}</strong>`,
 			'info',
-			10000)
-		//setTimeout(new_chat.fadeOut(),10000)
-		
+			10000)		
 	})
 
 //------- OTHER JS FUNCTION ------------------------------------------------------------- //
@@ -374,26 +308,22 @@ function init() {
 				error:function(e){console.log(e)}
 				})
 		   	})
-
 	let chat_noshow=false	
-
-
 	$('#chat_close').click(function(event){
 		event.preventDefault()
 		if(!chat_noshow){
 			$('#pictionary_chat > *').hide()
 			$('#chat_row').show()
 			$('#chat_row .alert-heading').attr('style','font-size:.75em;')
-			$('#chat_close > span').html('&#9650; ')
+			$('#chat_close > span').html('&and;')
 			$('#chat_close').show()
 			chat_noshow=true
 		}else{
 			$('#pictionary_chat > *').show()
 			$('#chat_row .alert-heading').attr('style','')
-			$('#chat_close > span').html('&#9660;')
+			$('#chat_close > span').html('&or;')
 			chat_noshow=false
 		}
-
 	})
 	function clearScreen(data){
 		canvas=document.getElementById('picpage')

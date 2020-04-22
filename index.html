@@ -7,7 +7,7 @@
       	<!-- BOOTSTRAP -->
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
         <!-- PICTIONARY -->
-        <link rel='stylesheet' href='public/css/style.css' />
+        <link rel='stylesheet' href='pictionary/public/css/style.css' />
         
         <!-- JQUERY -->
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
@@ -16,169 +16,166 @@
         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
         <!-- PICTIONARY SOCKET AND JS -->
         <script src = '/socket.io/socket.io.js'></script>
-        <script src='public/js/pictionary.js'></script>
+        <script src='pictionary/public/js/pictionary.js'></script>
     </head>
-
-    <body onload="init()">
-
-
-
-<div class='d-flex fixed-top position-absolute'>
+<body onload='init()'>
+<!-- FIXED TOP -->
+	<div class='d-flex fixed-top position-absolute'>
 <!-- NAVIGATION MENU OPTIONS -->
-	    	<div class='d-flex '>
-				<ul class='nav nav-pills'>
-				    <li class='nav-item dropdown'>
-				        <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Menu</a>
-						<div class='dropdown-menu'>
-							<a class='dropdown-item' data-toggle='modal' data-target='#username_set'>Set Username</a>
-							<a class='dropdown-item' data-toggle='modal' data-target='#get_word_modal'>Get Word</a>
-							<a class='dropdown-item' href='' id='clearscreen_all'>Clear Screen</a>
-							<div class='dropdown-divider'></div>
-							<a class='dropdown-item' href='https://github.com/superyaniv/pictionary' target='_blank'>Github Repo</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-	    	<div class='d-flex '>
-				<ul class='nav nav-pills'>
-				    <li class='nav-item dropdown'>
-				        <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Colors</a>
-						<div id='setColors' class='dropdown-menu'>
-							<a class='dropdown-item' id='setColor-Red' >Red</a>
-							<a class='dropdown-item' id='setColor-Green'>Green</a>
-							<a class='dropdown-item' id='setColor-Blue' >Blue</a>
-							<div class='dropdown-divider'></div>
-							<a class='dropdown-item' id='setColor-Black' >Black</a>
-							<a class='dropdown-item' id='setColor-White' >White</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-	    	<div class='d-flex '>
-				<ul class='nav nav-pills'>
-				    <li class='nav-item dropdown'>
-				        <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Type</a>
-						<div id='setType' class='dropdown-menu'>
-							<a class='dropdown-item' id='setType-Line-1'>Line-1px</a>
-							<a class='dropdown-item' id='setType-Line-5'>Line-5px</a>
-							<a class='dropdown-item' id='setType-Line-10' >Line-10px</a>
-							<div class='dropdown-divider'></div>
-							<a class='dropdown-item' id='setType-Dot-1'>Dot-1px</a>
-							<a class='dropdown-item' id='setType-Dot-5'>Dot-5px</a>
-							<a class='dropdown-item' id='setType-Dot-10' >Dot-10px</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-</div>
-
-
-<!-- THIS IS THE MAIN CANVAS AREA -->
-			<!-- mouse pointer id -->
-			 <div id='cursors'>
-			</div >
-
-			<!-- main canvas -->
-			<canvas id='picpage' width='300' height='400'>
-			</canvas>
-<!-- THIS IS THE MAIN CANVAS AREA -->
-
-	
-<!-- FIXED BOTTOM -->
-
-
-				
-<!-- PICTIONARY CHAT AREA -->
-	<div class='fixed-bottom'>
-<!-- ALERT AREA -->
-	<div id='pictionary_alert' class=' w-100' style='max-width:300px'></div>
-	
-<!-- CHAT AREA -->
-	<div class=' w-100 alert alert-warning alert-dismissible show fade out fade in close' role='alert' id='pictionary_chat'> 
-		<button type="button" class="close" data-dismiss="close" aria-label="close" id="chat_close"><span aria-hidden="true">&#9660;</span></button>
-			<div class='row' style='max-height:200px;overflow:hidden' id='chat_row'>
-			<div class='col-12'>
-				<h4 class='alert-heading m-0 p-0'>Chat <span id='chat_username' class='pl-3 lead text-muted' style='font-size:.5em'></span></h4>
-				<div id='chat_area'></div>
-			</div>
-			</div>
-			<hr>
-			<div class='row' style='overflow:hidden'>
-				<div class='col-md-9'>
-					<input type='text' class='form-control' id='chat_to_send' placeholder='Chat to send...' >
-				</div>
-				<div class='col-md-3'>
-					<button id='submit_chat' type='submit' class='btn btn-primary w-100'>Send</button>
-				</div>
-			</div>
-			</div>
-<!-- STATS	 -->
-			<!-- <div id='pictionary_STATS' class='float-right position-sticky' style='border-style:none'></div> -->
-
+	<!-- GENERAL MENU -->	
+    	<div class='d-flex '>
+			<ul class='nav nav-pills'>
+			    <li class='nav-item dropdown'>
+			        <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Menu</a>
+					<div class='dropdown-menu'>
+						<a class='dropdown-item' data-toggle='modal' data-target='#username_set'>Set Username</a>
+						<a class='dropdown-item' data-toggle='modal' data-target='#get_word_modal'>Get Word</a>
+						<a class='dropdown-item' href='' id='clearscreen_all'>Clear Screen</a>
+						<div class='dropdown-divider'></div>
+						<a class='dropdown-item' href='https://github.com/superyaniv/pictionary' target='_blank'>Github Repo</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	<!-- COLORS -->	
+    	<div class='d-flex '>
+			<ul class='nav nav-pills'>
+				<li class='nav-item dropdown'>
+					<a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Colors</a>
+					<div id='setColors' class='dropdown-menu'>
+						<a class='dropdown-item' id='setColor-Red' >Red</a>
+						<a class='dropdown-item' id='setColor-Green'>Green</a>
+						<a class='dropdown-item' id='setColor-Blue' >Blue</a>
+						<div class='dropdown-divider'></div>
+						<a class='dropdown-item' id='setColor-Black' >Black</a>
+						<a class='dropdown-item' id='setColor-White' >White</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	<!-- TYPES -->	
+    	<div class='d-flex '>
+			<ul class='nav nav-pills'>
+				<li class='nav-item dropdown'>
+					<a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Type</a>
+					<div id='setType' class='dropdown-menu'>
+						<a class='dropdown-item' id='setType-Line-1'>Line-1px</a>
+						<a class='dropdown-item' id='setType-Line-5'>Line-5px</a>
+						<a class='dropdown-item' id='setType-Line-10' >Line-10px</a>
+						<div class='dropdown-divider'></div>
+						<a class='dropdown-item' id='setType-Dot-1'>Dot-1px</a>
+						<a class='dropdown-item' id='setType-Dot-5'>Dot-5px</a>
+						<a class='dropdown-item' id='setType-Dot-10' >Dot-10px</a>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 
 
-<!---------------------- MODALS  -------------------------------->
-<!-- SET USERNAME MODAL -->
-        <div class='modal fade' id='username_set' tabindex='-1' role='dialog' aria-labelledby='username_set_label' aria-hidden='true'>
-			<div class='modal-dialog' role='document'>
-				<div class='modal-content'>
-				<div class='modal-header'>
-					<h5 class='modal-title' id='username_set_label'>Set Username</h5>
-					<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
-						<span aria-hidden='true'>&times;</span>
-					</button>
+<!-----------------------THIS IS THE MAIN CANVAS AREA ----------------------->
+			<!-- MOUSE POINTERS -->
+			 <div id='cursors'></div >
+			<!-- MAIN CANVAS -->
+			<canvas id='picpage' width='300' height='400'></canvas>
+<!-----------------------THIS IS THE MAIN CANVAS AREA ----------------------->
+
+	
+<!-- FIXED BOTTOM -->
+			
+	<!-- PICTIONARY CHAT AREA -->
+		<div class='container-fluid fixed-bottom'>
+	<!-- ALERT AREA -->
+		<div id='pictionary_alert' class=' w-100' style='max-width:300px'></div>
+		
+	<!-- CHAT AREA -->
+		<div class='container-fluid alert alert-warning show fade out fade in close p-1 m-1' role='alert' id='pictionary_chat'> 
+				<div class='row p-0 m-0' style='max-height:200px;overflow:hidden' id='chat_row'>
+				<div class='col-12  p-0 m-0'>
+					<h4 class='alert-heading ml-1'>Chat <span id='chat_username' class='pl-3 lead text-muted' style='font-size:.5em'></span>
+
+					<button type='button' class='close mr-1' aria-label='Close' id='chat_close'>
+					<span aria-hidden='true'>&or;</span>
+				</button></h4>
+				
+					<div id='chat_area'></div>
 				</div>
-				<div class='modal-body'>
-					<div class='form-group'>
-						<label for='person_to' class='col-form-label'>Username:</label>
-						<input type='text' class='form-control' id='username_input'>
+				</div>
+				<hr class='p-1 m-0'>
+				<div class='row' style='overflow:hidden'>
+					<div class='col-md-9'>
+						<input type='text' class='form-control' id='chat_to_send' placeholder='Chat to send...' >
+					</div>
+					<div class='col-md-3'>
+						<button id='submit_chat' type='submit' class='btn btn-primary w-100'>Send</button>
 					</div>
 				</div>
-				<div class='modal-footer'>
-					<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
-					<button type='button' class='btn btn-primary' id='set_my_username'>Set Username</button>
 				</div>
+	<!-- STATS	 -->
+				<!-- <div id='pictionary_STATS' class='float-right position-sticky' style='border-style:none'></div> -->
+		</div>
+
+<!---------------------- MODALS  -------------------------------->
+	<!-- SET USERNAME MODAL -->
+	<div class='modal fade' id='username_set' tabindex='-1' role='dialog' aria-labelledby='username_set_label' aria-hidden='true'>
+		<div class='modal-dialog' role='document'>
+			<div class='modal-content'>
+			<div class='modal-header'>
+				<h5 class='modal-title' id='username_set_label'>Set Username</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+					<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<div class='modal-body'>
+				<div class='form-group'>
+					<label for='person_to' class='col-form-label'>Username:</label>
+					<input type='text' class='form-control' id='username_input'>
+				</div>
+			</div>
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+				<button type='button' class='btn btn-primary' id='set_my_username'>Set Username</button>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- GET WORD MODAL -->
+	<div class='modal fade' id='get_word_modal' tabindex='-1' role='dialog' aria-labelledby='get_word_modal_label' aria-hidden='true'>
+		<div class='modal-dialog' role='document'>
+			<div class='modal-content'>
+					<div class='modal-header'>
+						<h5 class='modal-title' id='get_word_modal_label'>Get New Word</h5>
+						<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+							<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<div class='modal-body container-fluid w-100'>
+						<div class='row'>
+							<div class='col-5 my-auto'>
+								<button class='btn btn-secondary dropdown-toggle' type='button' id='choose_word_difficulty' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+									Choose Difficulty
+								</button>
+								<div class='dropdown-menu'>
+									<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Easy</a>
+									<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Medium</a>
+									<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Hard</a>
+									<div class='dropdown-divider'></div>
+										<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Expert</a>
+								</div>
+							</div>
+							<div class='col-7'>
+								<div class='rounded display-4 mx-auto my-auto' id='word_chosen'><h4 class='lead text-right'>And the word is...</h4></div>
+							</div>
+						</div>
+					</div>
+					<div class='modal-footer'>
+						<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+						<button type='button' id='go_get_word' class='btn btn-primary'>Go!</button>
+					</div>
 				</div>
 			</div>
 		</div>
-
-<!-- Get Word Modal -->
-        <div class='modal fade' id='get_word_modal' tabindex='-1' role='dialog' aria-labelledby='get_word_modal_label' aria-hidden='true'>
-			<div class='modal-dialog' role='document'>
-				<div class='modal-content'>
-						<div class='modal-header'>
-							<h5 class='modal-title' id='get_word_modal_label'>Get New Word</h5>
-							<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
-								<span aria-hidden='true'>&times;</span>
-							</button>
-						</div>
-						<div class='modal-body container-fluid w-100'>
-							<div class='row'>
-								<div class='col-5 my-auto'>
-									<button class='btn btn-secondary dropdown-toggle' type='button' id='choose_word_difficulty' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-										Choose Difficulty
-									</button>
-									<div class='dropdown-menu'>
-										<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Easy</a>
-										<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Medium</a>
-										<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Hard</a>
-										<div class='dropdown-divider'></div>
-											<a class='dropdown-item' aria-labelledby='choose_word_difficulty' href='#'>Expert</a>
-									</div>
-								</div>
-								<div class='col-7'>
-									<div class='rounded display-4 mx-auto my-auto' id='word_chosen'><h4 class='lead text-right'>And the word is...</h4></div>
-								</div>
-							</div>
-						</div>
-						<div class='modal-footer'>
-							<button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
-							<button type='button' id='go_get_word' class='btn btn-primary'>Go!</button>
-						</div>
-					</div>
-				</div>
-			</div>
-
+<!-- BODYEND -->
     </body>
 </html>
