@@ -6,7 +6,13 @@ Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with friends.
 
   `node app` 
 
-### Dockerized Version
+### Build Docker (optional)
+
+`docker build -t <namespace>/pictionary`
+
+e.g.: `docker build -t yanivalfasy/pictionary`
+
+### Dockerized Version (built)
 
 `docker pull yanivalfasy/pictionary`
 
