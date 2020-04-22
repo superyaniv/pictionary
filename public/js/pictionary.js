@@ -2,7 +2,7 @@
 //pictionary 
 
 function init() {
-	var canvas, ctx, canvasX, canvasY, mouseIsDown = 0,canvasXp,canvasYp;
+	var canvas, ctx, canvasX, canvasY, mouseIsDown = 0,canvasXp,canvasYp,drawType,drawSize
 	var canvas = document.getElementById("picpage");
 	var ctx = canvas.getContext("2d");
 	// UNIQUE ID FOR THE USER 
@@ -12,8 +12,7 @@ function init() {
 	let artists = {}
 	let cursors = {}
 	let socket = io.connect('')
-	var lastEmit = $.now();
-
+	var lastEmit = $.now()
 	if (canvas.getContext) {
 		ctx = canvas.getContext("2d");
 
@@ -53,34 +52,52 @@ function init() {
 		drawing=false
 		canvasXp=e.targetTouches[0].pageX - canvas.offsetLeft
 		canvasYp=e.targetTouches[0].pageY - canvas.offsetTop
-		touchXY()
+		mouseXY()
 	}
 
 	function mouseXY(e) {
 		if (!e)
-		e = event;
+		e = event
 		canvasX = e.pageX - canvas.offsetLeft;
 		canvasY = e.pageY - canvas.offsetTop;
-		if (mouseIsDown)
+		if (mouseIsDown){
 			drawing = true;
-
+		}
 		if (!mouseIsDown){
 			drawing = false;
 		}
-         
+		if(typeof(drawType)==='undefined'){
+         	drawType='Line'
+         	drawSize=3}
+
 		//DRAW FOR THE USER
-		if(drawing){
 			if($.now() - lastEmit > 30){
 				socket.emit('pictionary_mousemove',{
-					'x': canvasX,
-					'y': canvasY,
-					'drawing': drawing,
-					'id': id
+					'canvasXp':canvasXp,
+					'canvasYp':canvasYp,
+					'drawing':drawing,
+					'id':id,
+					'canvasX':canvasX,
+					'canvasY':canvasY,
+					'drawType':drawType,
+					'draw_strokeStyle':ctx.strokeStyle,
+					'drawSize':drawSize
 				})
 				lastEmit = $.now();
 			}
-			drawLine(canvasXp, canvasYp, canvasX, canvasY);
-		}
+			if(drawing){
+			picDraw({
+				'canvasXp':canvasXp,
+				'canvasYp':canvasYp,
+				'drawing':drawing,
+				'id':id,
+				'canvasX':canvasX,
+				'canvasY':canvasY,
+				'drawType':drawType,
+				'draw_strokeStyle':ctx.strokeStyle,
+				'drawSize':drawSize
+			})
+			}
 			canvasXp=canvasX
 			canvasYp=canvasY
 	}
@@ -91,37 +108,41 @@ function init() {
 		e.preventDefault()
 		canvasX = e.targetTouches[0].pageX - canvas.offsetLeft
 		canvasY = e.targetTouches[0].pageY - canvas.offsetTop
-
+         if(typeof(drawType)==='undefined'){
+         	drawType='Line'
+         	drawSize=3}
+       
 		if($.now() - lastEmit > 30){
-				socket.emit('pictionary_mousemove',{
-					'x': canvasX,
-					'y': canvasY,
-					'drawing': drawing,
-					'id': id
+			socket.emit('pictionary_mousemove',{
+				'canvasXp':canvasXp,
+				'canvasYp':canvasYp,
+				'id':id,
+				'canvasX':canvasX,
+				'canvasY':canvasY,
+				'drawing':drawing,
+				'drawType':drawType,
+				'draw_strokeStyle':ctx.strokeStyle,
+				'drawSize':drawSize
 			})
 			lastEmit = $.now()
 		}
 		drawing=true
-		//drawDot(ctx,canvasX,canvasY,5);
-		drawLine(canvasXp, canvasYp, canvasX, canvasY);
+			picDraw({
+				'canvasXp':canvasXp,
+				'canvasYp':canvasYp,
+				'id':id,
+				'canvasX':canvasX,
+				'canvasY':canvasY,
+				'drawing':drawing,
+				'drawType':drawType,
+				'draw_strokeStyle':ctx.strokeStyle,
+				'drawSize':drawSize
+			})
+
 		canvasXp=canvasX
 		canvasYp=canvasY
 	}
 	
-	function drawDot(ctx,x,y,size) {
-		//COLOR SETTING
-		r=0; g=0; b=0; a=255;
-
-		// FILL STYLE
-		ctx.fillStyle = "rgba("+r+","+g+","+b+","+(a/255)+")";
-
-        // CIRCLE
-		ctx.beginPath();
-		ctx.arc(x, y, size, 0, Math.PI*2, true); 
-		ctx.closePath();
-		ctx.fill();
-    } 
-
     var chat_username
 	
 //-----USER FUNCTIONS ------------------------------------------------------------- //
@@ -157,8 +178,7 @@ function init() {
 
 	})
 	socket.on('pictionary_user_disconnect',function(options){
-			let discon_username = options.discon_user
-			pictionary_alert(`${discon_username} has left.`,'info',10000)
+			pictionary_alert(`${options.discon_user} has left.`,'info',10000)
 	})
 	
 	//RECEIVE USER IDS AND HOW MANY ARE CONNECTED
@@ -192,31 +212,45 @@ function init() {
 			// CREATE CURSOR FOR NEW USER 
 			cursors[data.id] = $('<div class="cursor">').appendTo('#cursors')
 		}
-			// MOUSE MOVE
-			cursors[data.id].css({
-			'left' : data.x,
-			'top' : data.y
-		})
+		cursors[data.id].css({'left' : data.canvasX,'top' : data.canvasY})
 		//USER DRAW
+		// console.table(data)
     	if(data.drawing && artists[data.id]){
-			drawLine(artists[data.id].x, artists[data.id].y, data.x, data.y)
+			picDraw({
+				'canvasXp':artists[data.id].canvasX,
+				'canvasYp':artists[data.id].canvasY,
+				'id':data.id,
+				'canvasX':data.canvasX,
+				'canvasY':data.canvasY,
+				'drawing':data.drawing,
+				'drawType':data.drawType,
+				'draw_strokeStyle':data.draw_strokeStyle,
+				'drawSize':data.drawSize
+			})
 	    }
 			artists[data.id] = data
 			artists[data.id].updated = $.now()
 	})
 	var prev = {};
 	
-	$(document).on('mousemove',function(pos){
-	    if($.now() - lastEmit > 30){
-	       socket.emit('pictionary_mousemove',{
-				'x': pos.pageX,
-				'y': pos.pageY,
-				'drawing': drawing,
-				'id': id
-	        });
-	        lastEmit = $.now();
-	    }
-	})
+	// $(document).on('mousemove',function(pos){
+	// 	console.log(drawType,drawSize)
+
+	//     if($.now() - lastEmit > 30){
+	//        socket.emit('pictionary_mousemove',{
+	// 			'canvasXp':canvasXp,
+	// 			'canvasYp':canvasYp,
+	// 			'canvasX': pos.pageX,
+	// 			'canvasY': pos.pageY,
+	// 			'drawing': drawing,
+	// 			'id': id,
+	// 			'drawType':drawType,
+	// 			'draw_strokeStyle':ctx.strokeStyle,
+	// 			'drawSize':drawSize
+	//         })
+	//         lastEmit = $.now();
+	//     }
+	// })
 	//--CLEAR TEH SCREEN
 	socket.on('pictionary_clearscreen', function (data) {
 	 		clearScreen(data)
@@ -232,15 +266,43 @@ function init() {
 	}
 	},30000);
 
-	function drawLine(fromx, fromy, tox, toy){
-		ctx.moveTo(fromx, fromy);
-		ctx.lineTo(tox, toy);
-		ctx.stroke();
+	function picDraw(options){
+			//let ctx = options.ctx
+			
+		if(options.drawType=='Line'){
+			ctx.closePath()
+			ctx.beginPath()
+			ctx.lineWidth= options.drawSize
+			ctx.strokeStyle = options.draw_strokeStyle
+			ctx.moveTo(options.canvasXp, options.canvasYp)
+			ctx.lineTo(options.canvasX, options.canvasY)
+			ctx.closePath()
+			ctx.stroke()
+		}
+		if(options.drawType=='Dot'){
+			ctx.closePath()
+			ctx.fillStyle = options.draw_strokeStyle
+			ctx.beginPath();
+			ctx.arc(options.canvasX, options.canvasY, options.drawSize, 0, Math.PI*2, true); 
+			ctx.closePath();
+			ctx.fill();
+		}	
 	}
 	$('#setColors > a').click((a)=>{
-		a.preventDefault();
+		a.preventDefault()
+		ctx.closePath()
+		ctx.stroke()
+		const chosen_color = a.target.attributes.id.value.split('-')[1]
 		ctx.strokeStyle = a.target.attributes.id.value.split('-')[1]
-		console.log(a.target.attributes.id.value.split('-')[1])
+	})
+	$('#setType > a').click((a)=>{
+		a.preventDefault()
+		ctx.closePath()
+		ctx.stroke()
+		drawType = a.target.attributes.id.value.split('-')[1]
+		drawSize = a.target.attributes.id.value.split('-')[2].replace('px','')
+		console.log(`drawType: ${drawType} | drawSize: ${drawSize}`)
+
 	})
 
 

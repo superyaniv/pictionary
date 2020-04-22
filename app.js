@@ -34,61 +34,49 @@ app.use('/public/img', express.static(path.join(__dirname, 'public/img')))
 //--------------------- SOCKETS ---------------------------- //
 //DECLARATIONS
 let sequenceNumberByClient = new Map()
-let users = {}
 let chat_storage = []
 
 //SOCKETS
 io.on('connection',function(socket){
 
-//--------------------- USER SOCKETS ---------------------------- //
+//--------------------- CONNECTION SOCKET ---------------------------- //
 	
 		//SET A DEFAULT CLIENT NUMBER
 		let chat_username = `AnonUser${sequenceNumberByClient.size+1}`
 		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':chat_username})
-		//CLIENT CONNECTEED
+		
+		//CLIENT CONNECTED AND LET IT KNOW IT'S ID
+		socket.emit('pictionary_id',{'id':socket.id,'chat_username':chat_username})
 		console.info(`Client connected [id=${socket.id}]`)
 
-		//LET CLIENT KNOW IT'S ID
-		socket.emit('pictionary_id',{'id':socket.id,'chat_username':chat_username})
-		
-		//BROADCAST USERS
+		//BROADCAST USERS TO EVERYONE (INCLUDING USER CONNECTING)
 		socket.broadcast.emit('pictionary_users',JSON.stringify([...sequenceNumberByClient.values()]))
 		socket.emit('pictionary_users',JSON.stringify([...sequenceNumberByClient.values()]))
-		console.table(users)
 		console.table(sequenceNumberByClient)
 
-   	//CLIENT DISCONNECT
-   	socket.on('disconnect', function () {
-		// let discon_user = sequenceNumberByClient.get(socket).username
-        sequenceNumberByClient.delete(socket)
-        console.info(`Client gone [id=${socket.id}]`)
-    	// socket.emit('user_disconnect',{'discon_user':discon_user})
-    })
-
+//--------------------- CHAT FUNCTIONS ---------------------------- //
 	//CLIENT WANTS TO SET USERNAME
 	socket.on('pictionary_username', function (options) {
 		let username_options = JSON.parse(options)
 
+		//SET USERNAME IN MAP
 		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':`${username_options.username}`})
 		console.log(`Client connected [id=${socket.id}] set username to ${username_options.username}`)
-		console.table(sequenceNumberByClient)
 
+		//SEND SET USERNAME BACK TO USER
 		let username_set_options = {'username_set':true, 'username':username_options.username}
 		socket.emit('pictionary_username',JSON.stringify(username_set_options))
-		socket.broadcast.emit('pictionary_username', JSON.stringify(username_set_options))
-		console.log(JSON.stringify(username_set_options))
 
-		socket.broadcast.emit('pictionary_users',JSON.stringify(users))
-		socket.emit('pictionary_users',JSON.stringify([...sequenceNumberByClient.values()]))
-		console.log(`Broadcast all users: ${[...sequenceNumberByClient.values()]}`)
+		//BROADCAST ALL USERS
+		let all_users = JSON.stringify([...sequenceNumberByClient.values()])
+		socket.broadcast.emit('pictionary_users',all_users)
+		socket.emit('pictionary_users',all_users)
+		console.log(`Broadcast all users: ${all_users}`)
 		
 	})
 
-
-//--------------------- CHAT FUNCTIONS ---------------------------- //
 	socket.on('pictionary_chat', function (options) {
 			let chat_options = JSON.parse(options)
-			console.log(chat_options);
 			chat_storage.push(chat_options)
 			let chat_to_send_obj = {'chat_from':(chat_options.chat_from),'chat_text':chat_options.chat_text,'id':chat_storage.length}
 			
@@ -113,7 +101,6 @@ io.on('connection',function(socket){
 		socket.emit('pictionary_clearscreen',data)
 	})
 
-
 //--------------------- PICTIONARY ---------------------------- //
 
 	//GOT WORD
@@ -123,6 +110,15 @@ io.on('connection',function(socket){
 		socket.broadcast.emit('pictionary_word',{'username':sequenceNumberByClient.get(socket).username,'difficulty':data.difficulty})
 
 	})
+
+//--------------------- DISCONNECT ---------------------------- //
+   	//CLIENT DISCONNECT
+   	socket.on('disconnect', function () {
+		let discon_user = sequenceNumberByClient.get(socket).username
+        sequenceNumberByClient.delete(socket)
+        console.info(`Client gone [id=${socket.id}]`)
+    	socket.emit('pictionary_user_disconnect',{'discon_user':discon_user})
+    })
 
 })
 
