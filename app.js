@@ -43,12 +43,13 @@ io.on('connection',function(socket){
 //--------------------- USER SOCKETS ---------------------------- //
 	
 		//SET A DEFAULT CLIENT NUMBER
-		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':`AnonUser${sequenceNumberByClient.size+1}`})
+		let chat_username = `AnonUser${sequenceNumberByClient.size+1}`
+		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':chat_username})
 		//CLIENT CONNECTEED
 		console.info(`Client connected [id=${socket.id}]`)
 
 		//LET CLIENT KNOW IT'S ID
-		socket.emit('pictionary_id',socket.id)
+		socket.emit('pictionary_id',{'id':socket.id,'chat_username':chat_username})
 		
 		//BROADCAST USERS
 		socket.broadcast.emit('pictionary_users',JSON.stringify([...sequenceNumberByClient.values()]))

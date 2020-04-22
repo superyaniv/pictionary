@@ -122,13 +122,15 @@ function init() {
 		ctx.fill();
     } 
 
-
+    var chat_username
 	
 //-----USER FUNCTIONS ------------------------------------------------------------- //
 	//RECEIVE ID
-	socket.on('pictionary_id', (i)=>{
-		var id=i
-		console.log(i)
+	socket.on('pictionary_id', (data)=>{
+		let id=data.id
+		chat_username=data.chat_username 
+		$('#chat_username').text(`[ Username: ${chat_username} ]`)
+		console.log(id,chat_username)
 	})
 	
 	//SET USERNAME
@@ -169,8 +171,10 @@ function init() {
 			//CHANGE USER NAME=
 			socket.emit('pictionary_username',JSON.stringify(username_options))
 			console.log(username_options)
-			var username = username 
+			var username = $('#username_input').val()
 			$('#username_set').modal('hide')
+			$('#chat_username').text(`\t [Username: ${$('#username_input').val()} ]`)
+			$('#chat_username').attr('style','')
 		})
 	$('#username_input').keypress(event=>{
 		if ( event.which == 13 ) {
@@ -202,23 +206,6 @@ function init() {
 	})
 	var prev = {};
 	
-	//CLICK DOWN MOUSE ON CANVAS FIRST TIME
-	// $('#picpage').on('mousedown',function(pos){
-	// 	pos.preventDefault();
-	// 	drawing = true;
-	// 	prev.x = pos.pageX;
-	// 	prev.y = pos.pageY;
-	// 	$('#pictionary_info_alert').hide()
-	// })
-
-	//BIND AFTER FIRST DOWN CLICK
-	// $(document).bind('mouseup mouseleave',function(){
-	//     drawing = false;
-	// })
-
-	// var lastEmit = $.now();
-
-	// EMIT POSITION ON SCREEN
 	$(document).on('mousemove',function(pos){
 	    if($.now() - lastEmit > 30){
 	       socket.emit('pictionary_mousemove',{
@@ -229,12 +216,6 @@ function init() {
 	        });
 	        lastEmit = $.now();
 	    }
-	    //DRAW FOR THE USER
-	    // if(drawing){
-	    //     drawLine(prev.x, prev.y, pos.pageX, pos.pageY);
-	    //     prev.x = pos.pageX;
-	    //     prev.y = pos.pageY;
-	    // }
 	})
 	//--CLEAR TEH SCREEN
 	socket.on('pictionary_clearscreen', function (data) {
@@ -242,21 +223,25 @@ function init() {
 	    })
 	//REMOVE IDLE artists
 	setInterval(function(){
-	    for(ident in artists){
-	        if($.now() - artists[ident].updated > 30000){
-	            // REMOVE USER AFTER X SECONDS (30)
-	            cursors[ident].remove();
-	            delete artists[ident];
-	        }
-	    }
+		for(ident in artists){
+			if($.now() - artists[ident].updated > 30000){
+			// REMOVE USER AFTER X SECONDS (30)
+			cursors[ident].remove();
+			delete artists[ident];
+		}
+	}
 	},30000);
 
 	function drawLine(fromx, fromy, tox, toy){
-	    ctx.moveTo(fromx, fromy);
-	    ctx.lineTo(tox, toy);
-	    ctx.stroke();
+		ctx.moveTo(fromx, fromy);
+		ctx.lineTo(tox, toy);
+		ctx.stroke();
 	}
-
+	$('#setColors > a').click((a)=>{
+		a.preventDefault();
+		ctx.strokeStyle = a.target.attributes.id.value.split('-')[1]
+		console.log(a.target.attributes.id.value.split('-')[1])
+	})
 
 
 //------ CHATTING FUNCTIONS AND SOCKETS ------------------------------------------------------------- //
@@ -268,8 +253,8 @@ function init() {
 		let new_chat = `<p id='${chat_options.id}' class='p-0 m-0'><small><strong>${(String(chat_options.chat_from).padEnd(' ',10)).substr(0,10)}</strong> : ${chat_options.chat_text}</small></p>`
 		$('#chat_area').append(new_chat)
 		console.log(chat_options.id)
-		$('#'+chat_options.id).fadeIn(10000,'swing')
-		$('#'+chat_options.id).fadeOut(10000)
+		$('#'+chat_options.id).fadeIn(3000,'swing')
+		$('#'+chat_options.id).fadeOut(3000)
 
 		//setTimeout(new_chat.fadeOut(),10000)
 		
@@ -278,13 +263,8 @@ function init() {
 	// WRITE TEXT TO SEND IN TEH CHAT BAR
 	$('#submit_chat').click(event=>{
 		let chat_text = $('#chat_to_send').val()
-		if (typeof username !== 'undefined') {
-			chat_from=username
-			console.log('username:'+username)
-		}else{
-			chat_from=id
-			console.log('id:'+id)
-		}
+		let chat_from=chat_username
+		
 		let chat_options = {
 					'chat_text':chat_text,
 					'chat_from':chat_from
@@ -303,7 +283,7 @@ function init() {
 //----- PICTIONARY-RELATED SOCKET EMITS ------------------------------------------------------------- //
 	//SOMEONE RECEIVED WORD
 	socket.on('pictionary_word',function(word_data){
-		pictionary_alert(`New Word: <span class='h5'>${word_data.username}</span> got a new word. Level: <strong>${word_data.difficulty}</strong>`,
+		pictionary_alert(`New Word Alert: <span class='h5'>${word_data.username}</span> recieved a new word @ difficulty: <strong>${word_data.difficulty}</strong>`,
 			'info',
 			10000)
 		//setTimeout(new_chat.fadeOut(),10000)
@@ -340,13 +320,15 @@ function init() {
 		event.preventDefault()
 		if(!chat_noshow){
 			$('#pictionary_chat > *').hide()
-			$('#pictionary_STATS').hide()
 			$('#chat_row').show()
+			$('#chat_row .alert-heading').attr('style','font-size:.75em;')
+			$('#chat_close > span').html('&#9650; ')
 			$('#chat_close').show()
 			chat_noshow=true
 		}else{
 			$('#pictionary_chat > *').show()
-			$('#pictionary_STATS').show()
+			$('#chat_row .alert-heading').attr('style','')
+			$('#chat_close > span').html('&#9660;')
 			chat_noshow=false
 		}
 
@@ -366,7 +348,7 @@ function init() {
 	})
 	//------- OTHER JS FUNCTION ------------------------------------------------------------- //
 	function pictionary_alert(message,type,timing){
-
+		if(!chat_noshow){
 			$('pictionary_alert').attr('style','padding-bottom: '+($('#pictionary_chat').height()+20))
 			let pic_alert = $('<div>')
 			.addClass(`alert alert-${type} alert-dismissable fade show`)
@@ -374,35 +356,36 @@ function init() {
 			.html(message)
 			.appendTo($('#pictionary_alert'))
 			.fadeOut(timing)
+		}
 	}
 	function pictionary_stats(options){
-			console.log(options)
+		console.log(options)
 
-			$('#pictionary_STATS').html('')
-			let stat_div = $('<div>')
-				.addClass(`card p-0 m-2`)
-				.attr('style','width: 25rem;border:none')
-			let stat_div_header = $('<div>')
-				.addClass('card-title')
-				.html('PICTIONARY STATS')
-				.appendTo(stat_div)
-			let stat_div_body = $('<div>')
-				.addClass('card-body p-0')
-				.appendTo(stat_div)
-			let stat_div_row = $(`<div class='row'>`).appendTo(stat_div_body)
-				for(prop in options){
-					$('<dt>')
-						.addClass('col-md-4 card-text')
-						.html(`<strong>${prop}</strong>`)
-				.attr('style','text-transform:capitalize; white-space: nowrap;overflow: hidden;text-overflow: ellipsis')
-						.appendTo(stat_div_row)
-					$('<dd>')
-						.addClass('col-md-8 card-text text-muted')
-						.html(`${options[prop]}`)
-				.attr('style','text-transform:capitalize; white-space: nowrap;overflow: hidden;text-overflow: ellipsis')
-						.appendTo(stat_div_row)
-				}
-			stat_div.appendTo($('#pictionary_STATS'))
+		$('#pictionary_STATS').html('')
+		let stat_div = $('<div>')
+			.addClass(`card p-0 m-2`)
+			.attr('style','width: 25rem;border:none')
+		let stat_div_header = $('<div>')
+			.addClass('card-title')
+			.html('PICTIONARY STATS')
+			.appendTo(stat_div)
+		let stat_div_body = $('<div>')
+			.addClass('card-body p-0')
+			.appendTo(stat_div)
+		let stat_div_row = $(`<div class='row'>`).appendTo(stat_div_body)
+			for(prop in options){
+				$('<dt>')
+					.addClass('col-md-4 card-text')
+					.html(`<strong>${prop}</strong>`)
+			.attr('style','text-transform:capitalize; white-space: nowrap;overflow: hidden;text-overflow: ellipsis')
+					.appendTo(stat_div_row)
+				$('<dd>')
+					.addClass('col-md-8 card-text text-muted')
+					.html(`${options[prop]}`)
+			.attr('style','text-transform:capitalize; white-space: nowrap;overflow: hidden;text-overflow: ellipsis')
+					.appendTo(stat_div_row)
+			}
+		stat_div.appendTo($('#pictionary_STATS'))
 			
 	}
 

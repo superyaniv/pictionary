@@ -4,12 +4,9 @@ html{
 }
 body{
 }
-
-
 #cursors{
 	position:relative;
 }
-
 #cursors .cursor{
 	position:absolute;
 	width:15px;

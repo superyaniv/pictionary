@@ -4,7 +4,7 @@
         <meta charset='utf-8' />
         <title>PICTIONARY</title>
         <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
-      <!-- BOOTSTRAP -->
+      	<!-- BOOTSTRAP -->
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
         <!-- PICTIONARY -->
         <link rel='stylesheet' href='public/css/style.css' />
@@ -34,7 +34,21 @@
 							<a class='dropdown-item' data-toggle='modal' data-target='#get_word_modal'>Get Word</a>
 							<a class='dropdown-item' href='' id='clearscreen_all'>Clear Screen</a>
 							<div class='dropdown-divider'></div>
-							<a class='dropdown-item' href='#'>Separated link</a>
+							<a class='dropdown-item' href='https://github.com/superyaniv/pictionary' target='_blank'>Github Repo</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+	    	<div class='d-flex '>
+				<ul class='nav nav-pills'>
+				    <li class='nav-item dropdown'>
+				        <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Colors</a>
+						<div id='setColors' class='dropdown-menu'>
+							<a class='dropdown-item' id='setColor-Red'  >Red</a>
+							<a class='dropdown-item' id='setColor-Green'>Green</a>
+							<a class='dropdown-item' id='setColor-Blue' >Blue</a>
+							<div class='dropdown-divider'></div>
+							<a class='dropdown-item' id='setColor-Black' >Black</a>
 						</div>
 					</li>
 				</ul>
@@ -44,8 +58,8 @@
 
 <!-- THIS IS THE MAIN CANVAS AREA -->
 			<!-- mouse pointer id -->
-			<!-- <div id='cursors'>
-			</div >-->
+			 <div id='cursors'>
+			</div >
 
 			<!-- main canvas -->
 			<canvas id='picpage' width='300' height='400'>
@@ -54,18 +68,20 @@
 
 	
 <!-- FIXED BOTTOM -->
-<!-- <div class='d-flex fixed-bottom '> -->
 
-<!-- ALERT AREA -->
+
 				
 <!-- PICTIONARY CHAT AREA -->
 	<div class='fixed-bottom'>
+<!-- ALERT AREA -->
 	<div id='pictionary_alert' class=' w-100' style='max-width:300px'></div>
+	
+<!-- CHAT AREA -->
 	<div class=' w-100 alert alert-warning alert-dismissible show fade out fade in close' role='alert' id='pictionary_chat'> 
-		<button type="button" class="close" data-dismiss="close" aria-label="close" id="chat_close"><span aria-hidden="true">&times;</span></button>
+		<button type="button" class="close" data-dismiss="close" aria-label="close" id="chat_close"><span aria-hidden="true">&#9660;</span></button>
 			<div class='row' style='max-height:200px;overflow:hidden' id='chat_row'>
 			<div class='col-12'>
-				<h4 class='alert-heading'>Chat</h4>
+				<h4 class='alert-heading m-0 p-0'>Chat <span id='chat_username' class='pl-3 lead text-muted' style='font-size:.5em'></span></h4>
 				<div id='chat_area'></div>
 			</div>
 			</div>
@@ -79,10 +95,13 @@
 				</div>
 			</div>
 			</div>
+<!-- STATS	 -->
 			<!-- <div id='pictionary_STATS' class='float-right position-sticky' style='border-style:none'></div> -->
 
 	</div>
-      
+
+
+<!---------------------- MODALS  -------------------------------->
 <!-- SET USERNAME MODAL -->
         <div class='modal fade' id='username_set' tabindex='-1' role='dialog' aria-labelledby='username_set_label' aria-hidden='true'>
 			<div class='modal-dialog' role='document'>
