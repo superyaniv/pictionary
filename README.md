@@ -1,6 +1,8 @@
 # PICTIONARY SERVER
 
-Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with friends.
+A Friendly Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with friends!
+
+---
 
 ### To Run Server:
 
