@@ -20,7 +20,6 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "lodash": "^4.17.15",
-    "node-static": "^0.7.11",
     "socket.io": "^2.3.0"
   }
 }
