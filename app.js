@@ -1,11 +1,24 @@
-const express = require('express');
-let app = express();
-let http = require('http').Server(app)
-let io = require('socket.io')(http)
-let path = require('path')
-let _ = require ('lodash')
-let port = 5000
+const express = require('express')
+const app = express()
+const http = require('http').Server(app)
+const https = require('https')
+const io = require('socket.io')(http)
+const path = require('path')
+const _ = require ('lodash')
+const http_port = 5000
+const https_port = 5443
+const fs = require('fs')
 
+	// // REQUIRE HTTPS
+	// function requireHTTPS(req, res, next) {
+	// 	  // The 'x-forwarded-proto' check is for Heroku
+	// 	  if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV !== "development") {
+	// 	    return res.redirect('https://' + req.get('host') + req.url);
+	// 	  }
+	// 	  next();
+	// }
+	// // COMMENT OUT IF NOT ON SERVER
+	// app.use(requireHTTPS);
 
 
 app.get('/', function(req, res) {
@@ -121,7 +134,28 @@ io.on('connection',function(socket){
     })
 
 })
+//CERTS - PRIVATE KEYS
+	
 
-http.listen(port, function() {
-   console.log(`Listening on ${port}`);
-});
+
+http.listen(http_port, function() {
+   console.log(`Listening on ${http_port}`);
+})
+
+if(fs.existsSync('etc/docker/certs.d/yanivalfasy.com:5000/privkey2.pem')){
+	const privateKey = fs.readFileSync('etc/docker/certs.d/yanivalfasy.com:5000/privkey2.pem', 'utf8')
+		const certificate = fs.readFileSync('etc/docker/certs.d/yanivalfasy.com:5000/cert2.pem', 'utf8')
+		const ca = fs.readFileSync('etc/docker/certs.d/keys/yanivalfasy.com:5000/fullchain2.pem', 'utf8')
+
+		const credentials = {
+			key: privateKey,
+			cert: certificate,
+			ca: ca
+		};
+
+	const httpsServer = https.createServer(credentials, app);
+
+	httpsServer.listen(http_port, () => {
+		console.log(`HTTPS Server running on port ${https_port}`);
+	})
+}
