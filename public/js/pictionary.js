@@ -2,29 +2,26 @@
 //pictionary 
 
 function init() {
-	var canvas, ctx, canvasX, canvasY, mouseIsDown = 0,canvasXp,canvasYp,drawType,drawSize
+	var canvas, ctx, canvasX, canvasY, mouseIsDown = 0,canvasXp,canvasYp,drawType,drawSize,cid
 	var canvas = document.getElementById("picpage");
 	var ctx = canvas.getContext("2d");
-	// UNIQUE ID FOR THE USER 
-	var id = Math.round($.now()*Math.random());
 	// DRAWING BOOL
-	let drawing = false
-	let artists = {}
-	let cursors = {}
-	let socket = io.connect('')
+	var drawing = false
+	var artists = {}
+	var cursors = {}
+	var names = {}
+	var socket = io.connect('')
+	var id = socket.id
 	if (canvas.getContext) {
 		ctx = canvas.getContext("2d");
-
 		window.addEventListener('resize', resizeCanvas, false);
 		window.addEventListener('orientationchange', resizeCanvas, false);
 		resizeCanvas();
 	}
-
 	function resizeCanvas() {
 		canvas.width = window.innerWidth;
-	    canvas.height = window.innerHeight;
-	}
-	
+	    canvas.height = window.innerHeight;}
+
 	canvas.addEventListener("mousedown", mouseDown, false);
 	canvas.addEventListener("mousemove", mouseXY, false);	
 	canvas.addEventListener("touchstart", touchDown, false);
@@ -34,13 +31,11 @@ function init() {
 	document.body.addEventListener("touchcancel", touchUp, false);
 
 	function mouseUp() {
-		mouseIsDown = 0;
-		mouseXY();
-	}
+		mouseIsDown = 0
+		mouseXY()}
 
 	function touchUp() {
-		drawing=false
-	}
+		drawing=false}
 
 	function mouseDown() {
 		mouseIsDown = 1
@@ -51,8 +46,7 @@ function init() {
 		drawing=false
 		canvasXp=e.targetTouches[0].pageX - canvas.offsetLeft
 		canvasYp=e.targetTouches[0].pageY - canvas.offsetTop
-		mouseXY()
-	}
+		mouseXY()}
 	function mouseXY(e) {
 		if (!e)
 		e = event
@@ -62,6 +56,8 @@ function init() {
 		if (!mouseIsDown){drawing = false}
 		if(typeof(drawType)==='undefined'){
          	drawType='Line'
+         	strokeStyle='Black'
+         	fillStyle='Black'
          	drawSize=3}
 
         drawing_data = {
@@ -69,10 +65,12 @@ function init() {
 			'canvasYp':canvasYp,
 			'drawing':drawing,
 			'id':id,
+			'cid':cid,
 			'canvasX':canvasX,
 			'canvasY':canvasY,
 			'drawType':drawType,
-			'draw_strokeStyle':ctx.strokeStyle,
+			'draw_strokeStyle':strokeStyle,
+			'draw_fillStyle':fillStyle,
 			'drawSize':drawSize
 		}
 		//DRAW FOR THE USER
@@ -83,7 +81,7 @@ function init() {
 		//RESET PREVIOUS LOCATION
 		canvasXp=canvasX
 		canvasYp=canvasY
-	}
+}
 
 	function touchXY(e) {
 		if (!e)
@@ -93,6 +91,8 @@ function init() {
 		canvasY = e.targetTouches[0].pageY - canvas.offsetTop
          if(typeof(drawType)==='undefined'){
          	drawType='Line'
+         	strokeStyle='Black'
+         	fillStyle='Black'
          	drawSize=3}
         //DRAW FOR THE USER
 		//EMIT THE DRAW
@@ -100,12 +100,15 @@ function init() {
         		'canvasXp':canvasXp,
 				'canvasYp':canvasYp,
 				'id':id,
+				'cid':cid,
 				'canvasX':canvasX,
 				'canvasY':canvasY,
 				'drawing':drawing,
 				'drawType':drawType,
-				'draw_strokeStyle':ctx.strokeStyle,
+				'draw_strokeStyle':strokeStyle,
+				'draw_fillStyle':fillStyle,
 				'drawSize':drawSize}
+
 		//DRAW ON SCREEN
 		socket.emit('pictionary_mousemove',drawing_data)
 		drawing=true
@@ -114,21 +117,27 @@ function init() {
 		canvasXp=canvasX
 		canvasYp=canvasY
 	}
-	
+
 //-----USER FUNCTIONS ------------------------------------------------------------- //
+	socket.on('connect', function() {
+		// UNIQUE ID FOR THE USER 
+  		id = socket.id
+	})
+
 	//RECEIVE ID
 	socket.on('pictionary_id', (data)=>{
-		let id=data.id
-		let chat_username=data.chat_username 
-		$('#chat_username').text(`[ Username: ${chat_username} ]`)
-		console.log(id,chat_username)
+		//UPDATE ON ID
+		console.log('ID ='+ data.id)
+		cid=data.cid 
+		$('#chat_username').text(`[ Username: ${cid} ]`)
+		console.log(id,cid)
 	})
 	
 	//SET USERNAME
 	socket.on('pictionary_username',function(data){
 		let username_data = JSON.parse(data)
-		username_data.username_set ? (chat_username = username_data.username) : alert('Error, username already in use.')
-		pictionary_alert(`<strong>Success:</strong> User set his <strong>username</strong> to <mark class='h5'>${chat_username}</mark>.  <em>What's up ${chat_username}</em>?!`,'success',10000)
+		username_data.username_set ? (cid = username_data.username) : alert('Error, username already in use.')
+		pictionary_alert(`<strong>Success:</strong> User set his <strong>username</strong> to <mark class='h5'>${cid}</mark>.  <em>What's up ${cid}</em>?!`,'success',10000)
 	})
 	
 	//RECEIVE USER IDS AND HOW MANY ARE CONNECTED
@@ -145,12 +154,15 @@ function init() {
 			'usernames':useridstring,
 			'time':Date(Date.now()),
 			'status':'OK'})
-
 	})
 	//USER DISCONNECTED
 	socket.on('pictionary_user_disconnect',function(data){
 			console.log(data)
+			if(data.discon_user != undefined){
+				names[data.discon_user].remove()
+				cursors[data.discon_socket_id].remove()}
 			pictionary_alert(`${data.discon_user} has left.`,'info',10000)
+	
 	})
 	//SETTING USERNAME FOR YOURSELF
 	$('#set_my_username').click(event=>{
@@ -171,17 +183,22 @@ function init() {
 			$('#set_my_username').trigger('click')
 		}
 	})
-	
 
 //-----DRAWING FUNCTIONS AND SOCKETS ------------------------------------------------------------- //
 
 	//GET MOVING MICE OF EVERYONE
 	socket.on('pictionary_moving', function (data) {
-		if(! (data.id in artists)){
+		
+		if(!(data.id in artists) || names[data.cid] === undefined){
 			// CREATE CURSOR FOR NEW USER 
 			cursors[data.id] = $('<div class="cursor">').appendTo('#cursors')
+			if(document.getElementById(data.id) != null){document.getElementById(data.id).remove()}
+			names[data.cid] = $(`<div class='name' id=${data.id}>`).text(data.cid).appendTo('#names')
 		}
 		cursors[data.id].css({'left': data.canvasX,'top': data.canvasY})
+		names[data.cid].css({'left': data.canvasX+10,'top': data.canvasY+10})
+		names[data.cid].css({'color': data.draw_strokeStyle})
+		names[data.cid].addClass('lead small')
 		//USER DRAW
     	if(data.drawing && artists[data.id]){
 			picDraw({
@@ -192,6 +209,7 @@ function init() {
 				'canvasY':data.canvasY,
 				'drawing':data.drawing,
 				'drawType':data.drawType,
+				'draw_fillStyle':data.draw_fillStyle,
 				'draw_strokeStyle':data.draw_strokeStyle,
 				'drawSize':data.drawSize
 			})
@@ -209,45 +227,41 @@ function init() {
 		for(ident in artists){
 			if($.now() - artists[ident].updated > 30000){
 			// REMOVE USER AFTER X SECONDS (30)
-			cursors[ident].remove();
+			cursors[ident].remove()
+			if(document.getElementById(ident)!=null){
+				names[artists[ident].cid].remove()}
 			delete artists[ident];
+
 		}
 	}
-	},30000);
+	},30000)
 
 	function picDraw(options){			
 		if(options.drawType=='Line'){
-			ctx.closePath()
 			ctx.beginPath()
+			ctx.strokeStyle = options.draw_strokeStyle
 			ctx.lineWidth= options.drawSize
-			ctx.fillStyle = options.draw_strokeStyle
 			ctx.moveTo(options.canvasXp, options.canvasYp)
 			ctx.lineTo(options.canvasX, options.canvasY)
-			ctx.closePath()
 			ctx.stroke()
 		}
 		if(options.drawType=='Dot'){
-			ctx.closePath()
-			ctx.fillStyle = options.draw_strokeStyle
-			ctx.beginPath();
+			ctx.beginPath()
+			ctx.fillStyle = options.draw_fillStyle
 			ctx.arc(options.canvasX, options.canvasY, options.drawSize, 0, Math.PI*2, true); 
-			ctx.closePath();
 			ctx.fill();
+
 		}	
 	}
 	$('#setColors > a').click((a)=>{
 		a.preventDefault()
-		ctx.closePath()
-		ctx.stroke()
-		ctx = canvas.getContext("2d");
-		ctx.strokeStyle = a.target.attributes.id.value.split('-')[1]
-		
-		
+		strokeStyle = a.target.attributes.id.value.split('-')[1]
+	 	fillStyle = a.target.attributes.id.value.split('-')[1]
+		console.log(`strokeStyle: ${strokeStyle} | fillStyle: ${fillStyle}`)
+
 	})
 	$('#setType > a').click((a)=>{
 		a.preventDefault()
-		ctx.closePath()
-		ctx.stroke()
 		drawType = a.target.attributes.id.value.split('-')[1]
 		drawSize = a.target.attributes.id.value.split('-')[2].replace('px','')
 		console.log(`drawType: ${drawType} | drawSize: ${drawSize}`)

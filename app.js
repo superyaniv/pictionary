@@ -43,24 +43,27 @@ app.use('/public/img', express.static(path.join(__dirname, 'public/img')))
 //DECLARATIONS
 	let sequenceNumberByClient = new Map()
 	let chat_storage = []
+	var userindex = 0
 //SOCKETS
 io.on('connection',function(socket){
 //--------------------- CONNECTION SOCKET ---------------------------- //
 	//SET A DEFAULT CLIENT NUMBER
 	if(!sequenceNumberByClient.has(socket)){
-		let chat_username = `AnonUser${sequenceNumberByClient.size+1}`
-		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':chat_username})
+		sequenceNumberByClient.set(socket)
+		let cid = `AnonUser${userindex++}`
+		sequenceNumberByClient.set(socket, {'socket_id': socket.id,'username':cid})
 		//CLIENT CONNECTED AND LET IT KNOW IT'S ID
 		console.info(`Client connected [id=${socket.id}]`)
 		//BROADCAST USERS TO EVERYONE (INCLUDING USER CONNECTING)
 		io.emit('pictionary_users',JSON.stringify([...sequenceNumberByClient.values()]))
 		console.table(sequenceNumberByClient)
-		socket.emit('pictionary_id',{'id':socket.id,'chat_username':chat_username})
-	}else{
-		//SEND ID ON RECONNECT
-		chat_username = sequenceNumberByClient.get(socket).username
-		socket.emit('pictionary_id',{'id':socket.id,'chat_username':chat_username})
+		socket.emit('pictionary_id',{'id':socket.id,'cid':cid})
 	}
+	// else{
+	// 	//SEND ID ON RECONNECT
+	// 	cid = sequenceNumberByClient.get(socket).username
+	// 	socket.emit('pictionary_id',{'id':socket.id,'cid':cid})
+	// }
 //--------------------- CHAT FUNCTIONS ---------------------------- //
 	//CLIENT WANTS TO SET USERNAME
 	socket.on('pictionary_username', function (options) {
@@ -105,9 +108,10 @@ io.on('connection',function(socket){
    	//CLIENT DISCONNECT
    	socket.on('disconnect', function () {
 		let discon_user = sequenceNumberByClient.get(socket).username
+		let discon_socket_id = socket.id
         sequenceNumberByClient.delete(socket)
         console.info(`Client gone [id=${socket.id}] [user=${discon_user}]`)
-    	io.emit('pictionary_user_disconnect',{'discon_user':discon_user})
+    	io.emit('pictionary_user_disconnect',{'discon_user':discon_user,'discon_socket_id':discon_socket_id})
 
     })
 
