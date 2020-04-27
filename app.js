@@ -7,7 +7,7 @@ const ioServer = require('socket.io')
 var io = new ioServer()
 
 if(fs.existsSync('keys/privkey2.pem')){
-	const https_port = 5443
+	const https_port = 443
 	const privateKey = fs.readFileSync('keys/privkey2.pem', 'utf8')
 	const certificate = fs.readFileSync('keys/cert2.pem', 'utf8')
 	const ca = fs.readFileSync('keys/fullchain2.pem', 'utf8')
@@ -16,8 +16,8 @@ if(fs.existsSync('keys/privkey2.pem')){
 	io.attach(https)
 	https.listen(https_port, () => {console.log(`HTTPS Server running on port ${https_port}`)})
 }else{
-	const http_port = 5080
-	const http = require('http').Server(app)
+	const http_port = 80
+	const http = require('http').createServer(app)
 	io.attach(http)
 	http.listen(http_port, function() {console.log(`Listening on ${http_port}`)})
 }
