@@ -96,7 +96,8 @@ function init() {
          	drawSize=3}
         //DRAW FOR THE USER
 		//EMIT THE DRAW
-        drawing_data = {'canvasXp':canvasXp,
+        drawing_data = {
+        		'canvasXp':canvasXp,
 				'canvasYp':canvasYp,
 				'id':id,
 				'canvasX':canvasX,
@@ -219,7 +220,7 @@ function init() {
 			ctx.closePath()
 			ctx.beginPath()
 			ctx.lineWidth= options.drawSize
-			ctx.strokeStyle = options.draw_strokeStyle
+			ctx.fillStyle = options.draw_strokeStyle
 			ctx.moveTo(options.canvasXp, options.canvasYp)
 			ctx.lineTo(options.canvasX, options.canvasY)
 			ctx.closePath()
@@ -238,8 +239,10 @@ function init() {
 		a.preventDefault()
 		ctx.closePath()
 		ctx.stroke()
-		const chosen_color = a.target.attributes.id.value.split('-')[1]
+		ctx = canvas.getContext("2d");
 		ctx.strokeStyle = a.target.attributes.id.value.split('-')[1]
+		
+		
 	})
 	$('#setType > a').click((a)=>{
 		a.preventDefault()
