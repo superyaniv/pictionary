@@ -11,7 +11,7 @@ function init() {
 	let drawing = false
 	let artists = {}
 	let cursors = {}
-	let socket = io.connect('')
+	let socket = io.connect('https://superyaniv.github.io/pictionary/')
 	if (canvas.getContext) {
 		ctx = canvas.getContext("2d");
 
