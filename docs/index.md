@@ -1,8 +1,3 @@
----
-title: Pictionary
-layout: minimal
----
-
 # PICTIONARY SERVER
 
 A Friendly Node JS + HTML5 Canvas + Socket.io for a simple pictionary game with friends!
