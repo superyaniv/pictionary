@@ -38,6 +38,6 @@ Example:
 
 ### Example BASH Script for Docker workflow
 
-  `./run_docker.sh 
+  ```./run_docker.sh 
 
 *will remove/stop old container, reissue new one, and redeploy with port binding.
