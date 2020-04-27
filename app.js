@@ -21,13 +21,13 @@ if(fs.existsSync('keys/privkey2.pem')){
 	io.attach(http)
 	http.listen(http_port, function() {console.log(`Listening on ${http_port}`)})
 }
-app.get('/pictionary', function(req, res) {
+app.get('/', function(req, res) {
    res.sendFile(path.join(__dirname,'index.html'))
 })
-app.get('/pictionary/public/js/pictionary.js', function(req, res) {
+app.get('/public/js/pictionary.js', function(req, res) {
    res.sendFile(path.join(__dirname,'public/js/pictionary.js'))
 })
-app.get('/pictionary/wordgen/:difficulty', function(req, res) {
+app.get('/wordgen/:difficulty', function(req, res) {
 	const difficulty = Math.min(req.params.difficulty+1,3)
 	let wordlistobj = require('./wordlist.json')
 	let wordlistjson = JSON.parse(JSON.stringify(wordlistobj.words))
@@ -36,9 +36,9 @@ app.get('/pictionary/wordgen/:difficulty', function(req, res) {
 	word = _.sample(filtered_set)
 	res.json(JSON.stringify(word))
 })
-app.get('/pictionary/public/css/style.css', function(req, res) {
+app.get('/public/css/style.css', function(req, res) {
    res.sendFile(path.join(__dirname,'public/css/style.css'))})
-app.use('/pictionary/public/img', express.static(path.join(__dirname, 'public/img')))
+app.use('/public/img', express.static(path.join(__dirname, 'public/img')))
 //--------------------- SOCKETS ---------------------------- //
 //DECLARATIONS
 	let sequenceNumberByClient = new Map()
