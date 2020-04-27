@@ -296,7 +296,7 @@ function init() {
 		   		socket.emit('pictionary_word',{username:'','difficulty':word_difficulty})	
 		   		console.log(word_difficulty)
 		   		$.ajax({
-				url: '/wordgen/'+word_difficulty,
+				url: '/pictionary/wordgen/'+word_difficulty,
 				dataType: 'json',                   
 				success: function (data){
 					console.log(data)
