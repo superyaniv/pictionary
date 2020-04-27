@@ -21,13 +21,13 @@ Example:
 
 ### Dockerized Version (built)
 
-`docker pull yanivalfasy/pictionary`
+  ```docker pull yanivalfasy/pictionary```
 
 ---
  
 ### Bind keys for HTTPs support
 
-`docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 <namespace>/pictionary:tag`
+  `docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 <namespace>/pictionary:tag`
 
 Example: 
   `docker run -d -v ~/keys:/usr/src/app/keys -p 5000:5000 -p 5443:5443 yanivalfasy/pictionary:latest`
@@ -38,6 +38,6 @@ Example:
 
 ### Example BASH Script for Docker workflow
 
-  ```./run_docker.sh 
-
-*will remove/stop old container, reissue new one, and redeploy with port binding.
+  `./run_docker.sh `
+  
+*will remove/stop old container, reissue new one, and redeploy with port binding.*
