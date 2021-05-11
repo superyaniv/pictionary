@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "http": "0.0.1-security",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {},
